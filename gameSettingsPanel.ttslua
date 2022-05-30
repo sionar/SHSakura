@@ -1,0 +1,58 @@
+function createSettingsPanelButtons()
+  local settingsPanel = objs.settingsPanel
+
+  local startX = -6.1
+	local startZ = -22.9
+
+  local buttonParam = {
+			font_color = {0, 0, 0},
+			rotation = {0, 0, 0},
+			width = 0,
+			height = 0,
+			font_size = 480,
+			function_owner = self,
+			click_function = 'nullFunction'
+		}
+    buttonParam.label = '[u]Game Type[/u]'
+    buttonParam.position = {0, 0.2, startZ - 1.4}
+		settingsPanel.createButton(buttonParam)
+
+    createHeading(settingsPanel, '[u]Game Type[/u]', {0, 0.2, -25})
+    createCheckbox(settingsPanel, 'Yes', {0, 5, -20})
+end
+
+function createHeading(panel, label, position)
+  -- used for all "categories"
+  local headingParam = {
+      click_function = "nullFunction",
+      function_owner = self,
+      width          = 0,
+      height         = 0,
+      font_size      = 500,
+      font_color     = {0, 0, 0},
+      label          = label,
+      position       = position
+  }
+  panel.createButton(headingParam)
+end
+
+
+function createCheckbox(panel, click, posiiton)
+  print("123")
+  -- used for all "Checkboxes"
+  local checkboxParam = {
+      click_function = click,
+      function_owner = self,
+      width          = 600,
+      height         = 600,
+      font_size      = 480,
+      color          = {1, 1, 1},
+      rotation       = {0, 0, 0},
+      position      = position
+  }
+  panel.createButton(checkboxParam)
+end
+
+function Yes(playerColor, clickedObject)
+  print("yes")
+end

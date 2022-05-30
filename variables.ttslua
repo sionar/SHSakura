@@ -1,7 +1,7 @@
 ----------Constants----------
 COLORS = {"White", "Brown", "Red", "Orange", "Yellow", "Green", "Teal", "Blue", "Purple", "Pink"}
 OBJECT_GUIDS = {
-  settingsBoard = "39d283",
+  settingsPanel = "39d283",
   placards = {pres = "4d3d8f", chan = "7dba7e", presPrev = "780217", chanPrev = "448483"},
   deckHolders = {policyDeck = "a5b10f", policyDiscard = "3e225f", abilityDeck = "b525aa", effectDeck = "4738c3"},
   electionTracker = "dd57c4",

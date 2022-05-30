@@ -1,6 +1,7 @@
 function onLoad()
   objs = initializeObjects(OBJECT_GUIDS)
   initializePolicyCards()
+  createSettingsPanelButtons()
 end
 
 function initializeObjects(el)
