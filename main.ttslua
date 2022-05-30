@@ -1,0 +1,42 @@
+----------Constants----------
+COLORS = {"White", "Brown", "Red", "Orange", "Yellow", "Green", "Teal", "Blue", "Purple", "Pink"}
+OBJECT_GUIDS = {
+  settingsBoard = "39d283",
+  placards = {pres = "4d3d8f", chan = "7dba7e", presPrev = "780217", chanPrev = "448483"},
+  deckHolders = {policyDeck = "a5b10f", policyDiscard = "3e225f", abilityDeck = "b525aa", effectDeck = "4738c3"},
+  electionTracker = "dd57c4",
+  boards = {liberal = "1943fd", fascist = "1943fd"},
+  playerCards = {
+    hitler = {
+      {role = "05df3f", party = "7f6315", ja = "0171d6", nein = "5168b1"}
+    },
+    fascist = {
+      {role = "0a595f", party = "057722", ja = "062363", nein = "0474a1"},
+      {role = "02b663", party = "2768aa", ja = "b04ea2", nein = "f3387e"},
+      {role = "7b4b45", party = "d489e4", ja = "e32104", nein = "fbf1bf"},
+    },
+    liberal = {
+      {role = "675a6e", party = "e94c08", ja = "417432", nein = "2a78ef"},
+      {role = "ccb7ec", party = "f988af", ja = "252027", nein = "efcad0"},
+      {role = "16e47f", party = "7b91e8", ja = "d53a04", nein = "2e2d50"},
+      {role = "c23099", party = "9e23fd", ja = "33dd8a", nein = "5736f8"},
+      {role = "98f4dc", party = "773694", ja = "9dbcac", nein = "171951"},
+      {role = "32843f", party = "564a73", ja = "b25d6a", nein = "31be17"},
+    }
+  }
+}
+
+----------Settings----------
+gameOptions = {
+  policyCountSettings = "normal",
+  policyCounts = {liberal = 6, fascist = 11},
+  isVotingHistoryOn = true,
+  isAutoVotingOn = true,
+  security = {isMainSecurityOn = true, isPolicySafetyOn = true},
+  card = {isDealRolesOn = false, isDealPartymembershipOn = false},
+  shuffle = {isShufflePlayersOn = false, isShuffleHostOn = true},
+  expansion = {numDealtCards = 3}
+}
+
+
+----------Variables----------

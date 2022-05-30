@@ -1,3 +1,1 @@
-function onLoad(saveString)
-
-end
+#include \main.ttslua
