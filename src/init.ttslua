@@ -1,6 +1,8 @@
-function onLoad()
+function init()
   objs = initializeObjects(OBJECT_GUIDS)
+  zones = initializeObjects(ZONE_GUIDS)
   initializePolicyCards()
+  lockObjects()
 end
 
 function initializeObjects(el)
@@ -29,5 +31,18 @@ function initializePolicyCards()
       end
       xOffset = xOffset + 1
     end
+  end
+end
+
+function lockObjects()
+  objs.settingsPanel.interactable = false
+  for k,v in pairs(objs.placards) do
+    v.interactable = false
+  end
+  for k,v in pairs(objs.deckHolders) do
+    v.interactable = false
+  end
+  for k,v in pairs(objs.boards) do
+    v.interactable = false
   end
 end

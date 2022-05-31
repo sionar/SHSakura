@@ -1,2 +1,3 @@
 #include \variables.ttslua
 #include \main.ttslua
+#include \init.ttslua
