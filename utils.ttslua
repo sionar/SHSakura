@@ -1,0 +1,3 @@
+function isPromoted(playerColor)
+  return Player[playerColor].admin
+end

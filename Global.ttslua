@@ -1,3 +1,4 @@
 #include \variables.ttslua
 #include \main.ttslua
+#include \utils.ttslua
 #include \gameSettingsPanel.ttslua

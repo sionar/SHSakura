@@ -1,44 +1,74 @@
 function createSettingsPanelButtons()
   local settingsPanel = objs.settingsPanel
 
-  local startX = -6.1
-	local startZ = -22.9
+  settingsPanel.clearButtons()
 
-  local buttonParam = {
-			font_color = {0, 0, 0},
-			rotation = {0, 0, 0},
-			width = 0,
-			height = 0,
-			font_size = 480,
-			function_owner = self,
-			click_function = 'nullFunction'
-		}
-    buttonParam.label = '[u]Game Type[/u]'
-    buttonParam.position = {0, 0.2, startZ - 1.4}
-		settingsPanel.createButton(buttonParam)
 
-    createHeading(settingsPanel, '[u]Game Type[/u]', {0, 0.2, -25})
-    createCheckbox(settingsPanel, 'Yes', {0, 5, -20})
+  createGameType(settingsPanel)
+
+
+
+  -- createLabel(settingsPanel, 'Game Type', {0, 0.2, -20}, true)
+  -- createLabel(settingsPanel, 'Game Type', {0, 0.2, -19}, false)
+  -- createCheckbox(settingsPanel, 'nullFunction', {0, 0.2, -15}, false)
+  -- createCheckbox(settingsPanel, 'nullFunction', {0, 0.2, -17}, true)
+  --
+  -- createOp(settingsPanel, 'incLiberalClickFun', {2.5, 0.2, 0}, "+")
+  -- createOp(settingsPanel, 'decLiberalClickFun', {2.5, 0.2, 2}, "-")
+  -- createVal(settingsPanel, {0, 0.2, 0}, options.policyCounts.liberal.count)
+  -- createVal(settingsPanel, {5, 0.2, 0}, options.policyCounts.fascist.count)
+end
+----------Panel UI----------
+--
+function createGameType(panel)
+
+   -- Game Type
+   createLabel(panel, "Game Type", {0, 0.2, -24}, true)
+
+   -- Original
+   createCheckbox(panel, "nullFunction", {-6, 0.2, -22.1}, true)
+   createLabel(panel, "Original", {-3, 0.2, -22}, false)
+
+    -- Custom
+    createCheckbox(panel, "nullFunction", {-6, 0.2, -20.6}, false)
+    createLabel(panel, "Custom ", {-3, 0.2, -20.5}, false)
+
+        -- Liberals
+        createOp(panel, "decLiberalClickFun", "-", {-4, 0.2, -19.1})
+        createVal(panel, options.policyCounts.liberal.count,  {-2.5, 0.2, -19.1})
+        createOp(panel, "incLiberalClickFun", "+", {-1, 0.2, -19.1})
+        createLabel(panel, "Liberal Cards", {3.5, 0.2, -19}, false)
+
+        -- Fascist
+        createOp(panel, "decFascistClickFun", "-", {-4, 0.2, -17.6})
+        createVal(panel, options.policyCounts.fascist.count, {-2.5, 0.2, -17.6})
+        createOp(panel, "incFascistClickFun", "+", {-1, 0.2, -17.6})
+        createLabel(panel, "Fascist Cards", {3.5, 0.2, -17.5}, false)
+
+
 end
 
-function createHeading(panel, label, position)
+----------Buttons----------
+
+function createLabel(panel, label, position, isUnderlined)
   -- used for all "categories"
   local headingParam = {
       click_function = "nullFunction",
       function_owner = self,
       width          = 0,
       height         = 0,
-      font_size      = 500,
+      font_size      = 600,
       font_color     = {0, 0, 0},
       label          = label,
       position       = position
   }
+  if isUnderlined then
+    headingParam.label = "[u]" .. label .. "[/u]"
+  end
   panel.createButton(headingParam)
 end
 
-
-function createCheckbox(panel, click, posiiton)
-  print("123")
+function createCheckbox(panel, click, position, isChecked)
   -- used for all "Checkboxes"
   local checkboxParam = {
       click_function = click,
@@ -46,13 +76,78 @@ function createCheckbox(panel, click, posiiton)
       width          = 600,
       height         = 600,
       font_size      = 480,
+      font_color     = {0, 0, 0},
       color          = {1, 1, 1},
       rotation       = {0, 0, 0},
-      position      = position
+      label          = isChecked and "✓" or "",
+      position       = position
   }
   panel.createButton(checkboxParam)
 end
 
-function Yes(playerColor, clickedObject)
-  print("yes")
+function createOp(panel, click, label, position)
+  local opParam = {
+      click_function = click,
+      function_owner = self,
+      width          = 600,
+      height         = 600,
+      font_size      = 480,
+      font_color     = {0, 0, 0},
+      color          = {1, 1, 1},
+      rotation       = {0, 0, 0},
+      label          = label,
+      position       = position
+  }
+  panel.createButton(opParam)
 end
+
+function createVal(panel, label, position)
+  local valParam = {
+      click_function = "nullFunction",
+      function_owner = self,
+      width          = 600,
+      height         = 600,
+      font_size      = 480,
+      font_color     = {0, 0, 0},
+      color          = {1, 1, 1},
+      rotation       = {0, 0, 0},
+      label          = label,
+      position       = position
+  }
+  panel.createButton(valParam)
+end
+
+
+----------Click Functions----------
+
+function incLiberalClickFun(clickedObject, playerColor)
+    return isPromoted(playerColor) and incValue(options.policyCounts.liberal, "count")
+end
+
+function incFascistClickFun(clickedObject, playerColor)
+  return isPromoted(playerColor) and incValue(options.policyCounts.fascist, "count")
+end
+
+function decLiberalClickFun(clickedObject, playerColor)
+    return isPromoted(playerColor) and decValue(options.policyCounts.liberal, "count")
+end
+
+function decFascistClickFun(clickedObject, playerColor)
+  return isPromoted(playerColor) and decValue(options.policyCounts.fascist, "count")
+end
+
+
+----------Helper Functions----------
+
+
+function incValue(ref, key)
+  ref[key] = ref[key] < ref.max and ref[key] + 1 or ref[key]
+  createSettingsPanelButtons()
+end
+
+function decValue(ref, key)
+  ref[key] = ref[key] > ref.min and ref[key] - 1 or ref[key]
+  createSettingsPanelButtons()
+end
+
+function nullFunction() end
