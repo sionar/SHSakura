@@ -6,6 +6,7 @@ function init()
     initializePlayerCards()
     initObjectTags()
   end
+  initNotes()
 end
 
 function initializeObjects(el)
@@ -64,4 +65,12 @@ function initObjectTags()
       end
     end
   end
+end
+
+function initNotes()
+  local notes = {
+    '[D060D0]Secret Hitler: Definitive Edition[-]',
+    'Version ' .. VERSION
+  }
+  Notes.setNotes(table.concat(notes, '\n'))
 end

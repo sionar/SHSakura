@@ -2,14 +2,13 @@ function startGame()
   initPlayers()
   assignRoles()
   assignPlayerCards()
+  setVotingCardGMNotes()
   dealPlayerCards()
 end
 
 function initPlayers()
-  -- local playerColors = getSeatedPlayers()
-  -- gameState.numPlayers = #playerColors
-  local playerColors = {'White', 'Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Purple', 'Pink'}
-  gameState.numPlayers = 8
+  local playerColors = getSeatedPlayers()
+  gameState.numPlayers = #playerColors
   players = {}
   for i,color in ipairs(playerColors) do
     players[color] = {isAlive = true, isSilenced = false, isConfirmedNotHitler = false}
@@ -46,6 +45,13 @@ function assignPlayerCards()
       playerDecks[color] = objs.playerCards.liberal[libIdx]
       libIdx = libIdx + 1
     end
+  end
+end
+
+function setVotingCardGMNotes()
+  for color,playerTable in pairs(playerDecks) do
+    playerDecks[color].ja.setGMNotes(color)
+    playerDecks[color].nein.setGMNotes(color)
   end
 end
 
