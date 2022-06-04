@@ -1,0 +1,71 @@
+function startGame()
+  initPlayers()
+  assignRoles()
+  assignPlayerCards()
+  dealPlayerCards()
+end
+
+function initPlayers()
+  -- local playerColors = getSeatedPlayers()
+  -- gameState.numPlayers = #playerColors
+  local playerColors = {'White', 'Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Purple', 'Pink'}
+  gameState.numPlayers = 8
+  players = {}
+  for i,color in ipairs(playerColors) do
+    players[color] = {isAlive = true, isSilenced = false, isConfirmedNotHitler = false}
+  end
+end
+
+function assignRoles()
+  local numLib = math.floor(gameState.numPlayers / 2) + 1
+  local numFas = gameState.numPlayers - numLib - 1
+  local roles = {"hitler"}
+  for i=1,numLib do
+    table.insert(roles, "liberal")
+  end
+  for i=1,numFas do
+    table.insert(roles, "fascist")
+  end
+  shuffleTable(roles)
+  local idx = 1
+  for color,playerTable in pairs(players) do
+    playerTable.role = roles[idx]
+    idx = idx + 1
+  end
+end
+
+function assignPlayerCards()
+  local libIdx, fasIdx = 1,1
+  for color,playerTable in pairs(players) do
+    if playerTable.role == "hitler" then
+      playerDecks[color] = objs.playerCards.hitler[1]
+    elseif playerTable.role == "fascist" then
+      playerDecks[color] = objs.playerCards.fascist[fasIdx]
+      fasIdx = fasIdx + 1
+    elseif playerTable.role == "liberal" then
+      playerDecks[color] = objs.playerCards.liberal[libIdx]
+      libIdx = libIdx + 1
+    end
+  end
+end
+
+function dealPlayerCards()
+  for color,playerTable in pairs(players) do
+    setupCard(playerDecks[color].ja, color)
+    setupCard(playerDecks[color].nein, color)
+    if options.card.isDealRolesOn then setupCard(playerDecks[color].role, color) end
+    if options.card.isDealPartyOn then setupCard(playerDecks[color].party, color) end
+  end
+end
+
+function setupCard(card, color)
+  card.locked = false
+  card.interactable = true
+  card.setScale({1,1,1})
+  dealCardToHand(card, color)
+end
+
+function dealCardToHand(card, color)
+  card.setPositionSmooth(HAND_POS[color].position, false, false)
+  card.setRotationSmooth(HAND_POS[color].rotation, false, false)
+end

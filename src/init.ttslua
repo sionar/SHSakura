@@ -4,7 +4,7 @@ function init()
   lockObjects()
   if not gameState.started then
     initializePlayerCards()
-    setObjectTags()
+    initObjectTags()
   end
 end
 
@@ -50,7 +50,7 @@ function lockObjects()
   end
 end
 
-function setObjectTags()
+function initObjectTags()
   for k,v in pairs(objs.placards) do
     v.setTags({'placard'})
   end
@@ -60,7 +60,7 @@ function setObjectTags()
   for role,rolesTab in pairs(objs.playerCards) do
     for i,cardObjsTab in ipairs(rolesTab) do
       for k,obj in pairs(cardObjsTab) do
-        obj.setTags({'card', role, k})
+        obj.setTags({'card', k})
       end
     end
   end

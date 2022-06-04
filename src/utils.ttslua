@@ -1,0 +1,25 @@
+function isPromoted(playerColor)
+  return not not Player[playerColor].admin
+end
+
+function debugPrint(val)
+  if not DEBUG then return end
+  if type(val) == "table" then
+    print(logString(val))
+  else
+    print(val)
+  end
+end
+
+function colorStr(str, color)
+  return '[' .. stringColorToRGB(color) .. ']' .. str .. '[-]'
+end
+
+function shuffleTable(table)
+  local j
+  for i = #table, 2, -1 do
+    j = math.random(i)
+    table[i], table[j] = table[j], table[i]
+  end
+  return table
+end

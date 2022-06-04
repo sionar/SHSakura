@@ -1,10 +1,12 @@
 ----------Constants----------
+DEBUG = true
 COLORS = {"White", "Brown", "Red", "Orange", "Yellow", "Green", "Teal", "Blue", "Purple", "Pink"}
 OBJECT_GUIDS = {
   settingsPanel = "39d283",
+  electionTracker = "dd57c4",
+  text3d = {"88c953", "ba4919", "b7dcde", "4598da"},
   placards = {pres = "4d3d8f", chan = "7dba7e", presPrev = "780217", chanPrev = "448483"},
   deckHolders = {policyDeck = "a5b10f", policyDiscard = "3e225f", abilityDeck = "b525aa", effectDeck = "4738c3"},
-  electionTracker = "dd57c4",
   boards = {liberal = "1943fd", fascist = "c09dbd"},
   playerCards = {
     hitler = {
@@ -70,12 +72,13 @@ options = {
   isAutoVotingOn = true,
   policyCounts = {liberal = 6, fascist = 11},
   security = {isMainSecurityOn = true, isPolicySafetyOn = true},
-  card = {isDealRolesOn = false, isDealPartymembershipOn = false},
+  card = {isDealRolesOn = false, isDealPartyOn = false},
   shuffle = {isShufflePlayersOn = false, isShuffleHostOn = true},
   expansion = {numDealtCards = 3}
 }
 gameState = {
   started = false,
+  numPlayers = 0,
   roundNum = 1,
   phase = 'StartOfRound',
   isHitlerTerritory = false,
@@ -91,7 +94,11 @@ gameState = {
 players = {
   -- color: {
   --   role: ["liberal", "fascist", "hitler"],
-  --   livingStatus: ["alive", "dead"],
-  --   isSilenced: [true, false]
+  --   isAlive: [true, false],
+  --   isSilenced: [true, false],
+  --   isConfirmedNotHitler: [true, false],
+  --   cards: {}
   -- }
 }
+
+playerDecks = {}

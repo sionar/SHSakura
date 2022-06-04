@@ -2,3 +2,5 @@
 #include \variables.ttslua
 #include \main.ttslua
 #include \init.ttslua
+#include \utils.ttslua
+#include \start_game.ttslua
