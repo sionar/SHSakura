@@ -1,3 +1,18 @@
-function onLoad()
+function onLoad(saveString)
+  if not (saveString == '') then
+    local save = JSON.decode(saveString)
+    gameState = save['g'] or gameState
+    options = save['o'] or options
+    players = save['p'] or players
+  end
   init()
+end
+
+function onSave()
+  local save = {
+    g = gameState,
+    o = options,
+    p = players
+  }
+  return JSON.encode(save)
 end

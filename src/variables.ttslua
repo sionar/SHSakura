@@ -60,8 +60,9 @@ HAND_POS = {
   Pink =      {position = Vector.new(51.66, 4.07, -11.73),  rotation = Vector.new(0.00, 270.00, 0.00)},
 }
 
-
-----------Settings----------
+----------Variables----------
+objs = {}
+zones = {}
 options = {
   policyCountSettings = "normal",
   gameType = "vanilla",
@@ -73,15 +74,15 @@ options = {
   shuffle = {isShufflePlayersOn = false, isShuffleHostOn = true},
   expansion = {numDealtCards = 3}
 }
-
-
-----------Variables----------
-objs = {}
-zones = {}
 gameState = {
+  started = false,
   roundNum = 1,
   phase = 'StartOfRound',
   isHitlerTerritory = false,
+  currPresColor = '',
+  currChanColor = '',
+  prevPresColor = '',
+  prevChanColor = '',
   inspectedPlayers = {},
   votingHistory = {},
   policyHistory = {},

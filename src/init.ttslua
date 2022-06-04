@@ -1,8 +1,11 @@
 function init()
   objs = initializeObjects(OBJECT_GUIDS)
   zones = initializeObjects(ZONE_GUIDS)
-  initializePolicyCards()
   lockObjects()
+  if not gameState.started then
+    initializePlayerCards()
+    setObjectTags()
+  end
 end
 
 function initializeObjects(el)
@@ -17,8 +20,8 @@ function initializeObjects(el)
   end
 end
 
-function initializePolicyCards()
   local xOffset = 0
+  function initializePlayerCards()
   local zOffset = 0
   for k,category in pairs(objs.playerCards) do
     for i,cardSet in ipairs(category) do
@@ -44,5 +47,21 @@ function lockObjects()
   end
   for k,v in pairs(objs.boards) do
     v.interactable = false
+  end
+end
+
+function setObjectTags()
+  for k,v in pairs(objs.placards) do
+    v.setTags({'placard'})
+  end
+  for k,v in pairs(objs.placards) do
+    v.setTags({'placard'})
+  end
+  for role,rolesTab in pairs(objs.playerCards) do
+    for i,cardObjsTab in ipairs(rolesTab) do
+      for k,obj in pairs(cardObjsTab) do
+        obj.setTags({'card', role, k})
+      end
+    end
   end
 end
