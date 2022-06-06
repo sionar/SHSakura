@@ -1,0 +1,6089 @@
+{
+  "SaveName": "Secret Hitler: Sakura",
+  "EpochTime": 1654378415,
+  "Date": "6/4/2022 5:33:35 PM",
+  "VersionNumber": "v13.1.1",
+  "GameMode": "◀Secret Hitler: Sakura▶",
+  "GameType": "Game",
+  "GameComplexity": "Low Complexity",
+  "PlayingTime": [
+    0,
+    0
+  ],
+  "PlayerCounts": [
+    0,
+    0
+  ],
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 1.0,
+  "Table": "Table_Custom",
+  "TableURL": "http://cloud-3.steamusercontent.com/ugc/486767061424367179/FD8732A68152AD58E409CB1E76885D4CC03DE603/",
+  "Sky": "Sky_Regal",
+  "SkyURL": "http://cloud-3.steamusercontent.com/ugc/491274777994520725/872F820DDEFDA08185A48917AC7E80839D7B8879/",
+  "Note": "[FFFF00]Secret Hitler: Consolidator Edition\nVersion 112 (235773)\n\n[-]Based on the board game:\n\n[FF0000]Secret Hitler[-]\ndesigned by\n[0080F8]Max Temkin[-],\n[0080F8]Mike Boxleiter[-],\n[0080F8]Tommy Maranges[-]\nand Illustrated by\n[0080F8]Mackenzie Schubert.[-]\n\nCheck the notebook for additional\ninformation and subscribe on the\nworkshop to make sure you have the\nlatest version.\n\nOnly the president can draw cards.\n\nTo topdeck a card move the election tracker\nto the \"REVEAL & PASS TOP POLICY\" circle.\n\n",
+  "TabStates": {
+    "0": {
+      "title": "Secret Hitler",
+      "body": "[i]The year is 1932. The place is pre-WWII Germany. In Secret Hitler, players are German politicians attempting to hold a fragile Liberal government together and stem the rising tide of Fascism. Watch out though—there are secret Fascists among you, and one player is Secret Hitler.[/i]\n\n[u][b]OVERVIEW[/b][/u]\n\nAt the beginning of the game, each player is secretly assigned to one of three roles: [b]Liberal[/b], [b]Fascist[/b], or [b]Hitler[/b]. The Liberals have a majority, but they don’t know for sure who anyone is; Fascists must resort to secrecy and sabotage to accomplish their goals. Hitler plays for the Fascist team, and the Fascists know Hitler’s identity from the outset, but Hitler doesn’t know the Fascists and must work to figure them out.\n\n[b]The Liberals win by enacting five Liberal Policies or killing Hitler. The Fascists win by enacting six Fascist Policies, or if Hitler is elected Chancellor after three Fascist Policies have been enacted.[/b]\n\nWhenever a Fascist Policy is enacted, the government becomes more powerful, and the President is granted a single-use power which must be used before the next round can begin. It doesn’t matter what team the President is on; in fact, even Liberal players might be tempted to enact a Fascist Policy to gain new powers.",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "Object",
+      "body": "[u][b]OBJECT[/b][/u]\n\nEvery player has a secret identity as a member of either the Liberal team or the Fascist team.\n\nPlayers on the Liberal team win if either:\n\n    • Five Liberal Policies are enacted.\n    or\n    • Hitler is assassinated.\n\nPlayers on the Fascist team win if either:\n\n    • Six Fascist Policies are enacted\n    or\n    • Hitler is elected Chancellor any time after the\n    third Fascist Policy has been enacted.",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Gameplay",
+      "body": "[u][b]GAMEPLAY[/b][/u]\n\nSecret Hitler is played in rounds. Each round has an [b]Election[/b] to form a government, a Legislative Session to enact a new Policy, and an Executive Action to exercise governmental power.\n\n[u][b]ELECTION[/b][/u]\n\n1. [b]Pass the Presidential Candidacy[/b]\nAt the beginning of a new round, the President placard moves clockwise to the next player, who is the new Presidential Candidate.\n\n2. [b]Nominate a Chancellor[/b]\nThe Presidential Candidate chooses a Chancellor Candidate by passing the Chancellor placard to any other eligible player. The Presidential Candidate is free to discuss Chancellor options with the table to build consensus and make it more likely the Government gets elected.\n\n[b]Eligibility:[/b]\nThe last [i]elected[/i] President and Chancellor are “term-limited,” and ineligible to be nominated as Chancellor Candidate.\n\n> ON ELIGIBILITY:\n>\n> • Term limits apply to the President and\n> Chancellor who were last elected, not to the last > pair nominated.\n>\n> • Term limits only affect nominations to the\n> Chancellorship; anyone can be President, even\n> someone who was just Chancellor.\n>\n> • If there are only five players left in the game,\n> only the last elected Chancellor is ineligible to be\n> Chancellor Candidate; the last President may be\n> nominated.\n>\n> • There are some other rules that affect eligibility\n> in specific ways: the Veto Power and the Election\n> Tracker. You don’t need to worry about those yet,\n> and we’ll talk about each one in its relevant\n> section.\n\n3. [b]Vote on the government[/b]\nOnce the Presidential Candidate has chosen an eligible Chancellor Candidate, players may discuss the proposed government until everyone is ready to vote. Every player, [i]including the Candidates[/i], votes on the proposed government. Once everyone is ready to vote, reveal your Ballot cards simultaneously so that everyone’s vote is public.\n\n[b]If the vote is a tie, or if a majority of players votes no:[/b]\n\nThe vote fails. The Presidential Candidate misses this chance to be elected, and the President placard moves clockwise to the next player. The Election Tracker is advanced by one Election.\n\n[b]Election Tracker:[/b] If the group rejects three governments in a row, the country is thrown into chaos. Immediately reveal the Policy on top of the Policy deck and enact it. Any power granted by this Policy is ignored, but the Election Tracker resets, and existing term-limits are forgotten. All players become eligible to hold the office of Chancellor for the next Election. If there are fewer than three tiles remaining in the Policy deck at this point, shuffle them with the Discard pile to create a new Policy deck.\n\n[i]Any time a new Policy tile is played face-up, the Election Tracker is reset, whether it was enacted by an elected government or enacted by the frustrated populace.[/i]\n\n[b]If a majority of players votes yes:[/b]\n\nThe Presidential Candidate and Chancellor Candidate become the new President and Chancellor, respectively.\n\n    If three or more Fascist Policies have been\n    enacted already:\n\n    Ask if the new Chancellor is Hitler. If so, the\n    game is over and the Fascists win. Otherwise,\n    other players know for sure the Chancellor is not\n    Hitler.\n\nProceed as usual to the Legislative Session.",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Legislative Session",
+      "body": "[u][b]LEGISLATIVE SESSION[/u][/b]\n\nDuring the Legislative Session, the President and Chancellor work together to enact a new Policy in secret. The President draws the top three tiles from the Policy deck, looks at them in secret, and discards one tile face down into the Discard pile. The remaining two tiles go to the Chancellor, who looks in secret, discards one Policy tile face down, and enacts the remaining Policy by placing the tile face up on the corresponding track.\n\nVerbal and nonverbal communication between the President and Chancellor is forbidden. The President and Chancellor MAY NOT pick Policies to play at random, shuffle the tiles before discarding one, or do anything else clever to avoid secretly and intentionally selecting a Policy. Additionally, the President should hand both Policies over at the same time, rather than one at a time to gauge the Chancellor’s reaction. Attempting to telegraph the contents of your hand using randomness or any other unusual selection procedure violates the spirit of the game. Don’t do it.\n\n[b]Discarded Policy tiles should never be revealed to the group. Players must rely on the word of the President and Chancellor, who are free to lie.[/b]\n\n> [b]ABOUT LYING:[/b] Often, some players learn\n> things that the rest of the players don’t know,\n> like when the President and Chancellor get to see > Policy tiles, or when a President uses the\n> Investigate power to see someone’s Party\n> Membership card. You can always lie about\n> hidden knowledge in Secret Hitler. The only time\n> players MUST tell the truth is in game-ending,\n> Hitler-related scenarios: a player who is Hitler\n> must say so if assassinated or if elected\n> Chancellor after three Fascist Policies have been\n> enacted.\n\n[b]If there are fewer than three tiles remaining in the Policy deck at the end of a Legislative Session,[/b] shuffle them with the Discard pile to create a new Policy deck. Unused Policy tiles should never be revealed, and they should not be simply placed on top of the new Policy deck.\n\n[b]If the government enacted a Fascist Policy that covered up a Presidential Power,[/b] the sitting President gets to use that power. Proceed to the Executive Action.\n\n[b]If the government enacted a Liberal Policy or a Fascist Policy that grants no Presidential Power,[/b] begin a new round with a new Election.",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Executive Action",
+      "body": "[u][b]EXECUTIVE ACTION[/u][/b]\n\nIf the newly-enacted Fascist Policy grants a Presidential Power, the President must use it before the next round can begin. Before using a power, the President is free to discuss the issue with other players, but ultimately the President gets to decide how and when the power is used. Gameplay cannot continue until the President uses the power. Presidential Powers are used only once; they don’t stack or roll over to future turns.",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Presidential Powers",
+      "body": "[u][b]PRESIDENTIAL POWERS[/u][/b]\n\n[b]Investigate Loyalty[/b]\nThe President chooses a player to investigate. Investigated players should hand their Party Membership card (not Secret Role card!) to the President, who checks the player’s loyalty in secret and then returns the card to the player. The President may share (or lie about!) the results of their investigation at their discretion. No player may be investigated twice in the same game.\n\n[b]Call Special Election[/b]\nThe President chooses any other player at the table to be the next Presidential Candidate by passing that player the President placard. Any player can become President—even players that are term-limited. The new President nominates an eligible player as Chancellor Candidate and the Election proceeds as usual.\n\n[b]A Special Election does not skip any players. After a Special Election, the President placard returns to the left of the President who enacted the Special Election.[/b]\n\nIf the President passes the presidency to the next player in the rotation, that player would get to run for President twice in a row: once for the Special Election and once for their normal shift in the Presidential rotation.\n\n[b]Policy Peek[/b]\nThe President secretly looks at the top three tiles in the Policy deck and then returns them to the top of the deck without changing the order.\n\n[b]Execution[/b]\nThe President executes one player at the table by saying “I formally execute [player name].” If that player is Hitler, the game ends in a Liberal victory. If the executed player is [b]not[/b] Hitler, the table should not learn whether a Fascist or a Liberal has been killed; players must try to work out for themselves the new table balance. Executed players are removed from the game and may not speak, vote, or run for office.",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Veto Power",
+      "body": "[u][b]VETO POWER[/u][/b]\n\nThe Veto Power is a special rule that comes into effect after five Fascist Policies have been enacted. For all Legislative Sessions after the fifth* Fascist Policy is enacted, the Executive branch gains a [i]permanent new ability[/i] to discard all three Policy tiles if [b]both[/b] the Chancellor and President agree.\n\nThe President draws three Policy tiles, discards one, and passes the remaining two to the Chancellor as usual. Then Chancellor may, instead of enacting either Policy, say “I wish to veto this agenda.” If the President consents by saying, “I agree to the veto,” both Policies are discarded and the President placard passes to the left as usual. If the President does not consent, the Chancellor must enact a Policy as normal.\n\nEach use of the Veto Power represents an inactive government and advances the Election Tracker by one.",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Strategy Notes",
+      "body": "[u][b]STRATEGY NOTES[/u][/b]\n\n• [b]Everyone should claim to be a Liberal.[/b] Since the Liberal team has a voting majority, it can easily shut out any player claiming to be a Fascist. As a Fascist, there is no advantage to outing yourself to the majority. Additionally, Liberals should usually tell the truth. Liberals are trying to figure out the game like a puzzle, so lying can put their team at a significant disadvantage.\n\n• [b]If this is your first time playing Hitler, just remember: be as Liberal as possible.[/b] Enact Liberal Policies. Vote for Liberal governments. Kiss babies. Trust your fellow Fascists to create opportunities for you to enact Liberal Policies and to advance Fascism on their turns. The Fascists win by subtly manipulating the table and waiting for the right cover to enact Fascist Policies, not by overtly playing as evil.\n\n• [b]Liberals frequently benefit from slowing play down and discussing the available information.[/b] Fascists frequently benefit from rushing votes and creating confusion.\n\n• [b]Fascists most often win by electing Hitler, not by enacting six Policies![/b] Electing Hitler isn’t an optional or secondary win condition, it’s the core of a successful Fascist strategy. Hitler should always play as a Liberal, and should generally avoid lying or getting into fights and disagreements with other players. When the time comes, Hitler needs the Liberals’ trust to get elected. Even if Hitler isn’t ultimately elected, the distrust sown among Liberals is key to getting Fascists elected late in the game.\n\n• [b]Ask other players to explain why they took an action.[/b] This is especially important with Presidential Powers—in fact, ask ahead of time whom a candidate is thinking of investigating/appointing/assassinating.\n\n• [b]If a Fascist Policy comes up, there are only three possible culprits: The President, the Chancellor, or the Policy Deck.[/b] Try to figure out who (or what!) put you in this position. ",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Custom",
+      "body": "Custom includes additional presidential powers that you can place anywhere, allows changing the number of policy slots on the fascist and liberal tracks with not used cards and enables changing the number of policy cards.  Some presidential powers need fan expansion cards that are not included.\r\n\r\nTo make an extended game use the extra slot on the both tracks.  Add 2 Fascist and 1 Liberal policy cards and then add an orange \"The president examines the top card.\" power.\r\n\r\nGrey policy cards can be played on Fascist or Liberal tracks.  Try removing a liberal policy and adding a grey one.\r",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Credits",
+      "body": "[b]Secret Hitler[/b] was designed by [b][i]Max Temkin[/i][/b] (Cards Against Humanity, Humans vs. Zombies) [b][i]Mike Boxleiter[/i][/b] (Solipskier, TouchTone), [b][i]Tommy Maranges[/i][/b] (Philosophy Bro) and illustrated by [b][i]Mackenzie Schubert[/i][/b] (Letter Tycoon, Penny Press).\n\n[u]Secret Hitler homepage:[/u]\nhttp://secrethitler.com\n\n[b][i]Secret Hitler: Consolidator Edition by Lost Savage[/b][/i] is based on the following mods: \r\n\r\n[b][i]Secret Hitler by skkeeper[/b][/i]\r\nThe first Secret Hitler for TTS based on the print and play version. \r\n\r\n[b][i]Secret Hitler by FragaholiC[/i][/b]\r\nAll Secret Hitler TTS mods are based off of this one (except for the one above). \r\n\r\n[b][i]Secret Hitler Scripted by Lycake[/i][/b]\r\nFirst scripted version. Now removed from Steam.\r\n\r\n[b][i]Secret Hitler Rescripted by LostGod[/i][/b]\r\nMy scripting is based off of this mod. This is the version that picks the president automatically. \r\n\r\n[b][i]Secret Hitler Scripted with 10 player variant by The Blind Dragon and Mr. White[/i][/b]\r\nUsed the extended boards (7 slot Fascist and 6 slot Liberal). \r\n\r\n[b][i]Secret Hitler: Customizable Board (Game not Included) by Corruptor0127[/i][/b]\r\nMost of the work for the custom boards. \r\n\r\n[b][i]Secret Hitler: Remastered by The Trust Melon[/i][/b]\r\nThe idea of a darker table top. \r\n\r\n[b][i]Secret Hitler (Anonymous Voting) by Hobo[/i][/b]\r\nUsed the hidden zones and the idea of card buttons.\r\n\r\n[b][i]Secret Hitler Scripted Note Taker Machine by Max[/i][/b]\r\nThe original note taker. \r\n\n[b][i]Secret Hitler Note Taker by The Blind Dragon[/i][/b]\r\nThe updated note taker. \r\n\n[b][i]Adv Secret Hitler Note Taker by smiling Aktheon[/i][/b]\r\nThe best note taker. My note taker is based on this one. \n\n[b][i]Secret Hitler Cheat/Troll Proof by SwiftPanda[/i][/b]\r\nAuto pres/chan for the note taker and other ideas. \r\n\r\n[b][i]Card Counter by Rodney[/i][/b]\r\nMy counting code is based on this.\n\n[b][i]Assorted Models by Bobirov[/i][/b]\nUsed the bars for imprisonment.\n\n[b][i]Shuffle Players Button by Markimus[/i][/b]\nThe start of the new shuffle functions.\n\n[b][i]Table Extension Shelves by Demian[/i][/b]\r\nMakes the table bigger for 12 Player.\r\n\r\n[b][i]12 Player avatar and hidden zone by CHRY[/i][/b]\r\nMore stuff for 12 Player.\n\n[u][b]OTHER CREDITS[/b][/u]\n\nEarth background is based on the specular map by [b][i]James Hastings-Trew[/i][/b].\r\n",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "License",
+      "body": "Secret Hitler and this derivative are \nlicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.\n\nhttps://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 10
+    }
+  },
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": true,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0
+  },
+  "ComponentTags": {
+    "labels": [
+      {
+        "displayed": "placard",
+        "normalized": "placard"
+      },
+      {
+        "displayed": "card",
+        "normalized": "card"
+      },
+      {
+        "displayed": "hitler",
+        "normalized": "hitler"
+      },
+      {
+        "displayed": "role",
+        "normalized": "role"
+      },
+      {
+        "displayed": "party",
+        "normalized": "party"
+      },
+      {
+        "displayed": "ja",
+        "normalized": "ja"
+      },
+      {
+        "displayed": "nein",
+        "normalized": "nein"
+      },
+      {
+        "displayed": "fascist",
+        "normalized": "fascist"
+      },
+      {
+        "displayed": "liberal",
+        "normalized": "liberal"
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "CameraStates": [
+    null,
+    {
+      "Position": {
+        "x": 0.0,
+        "y": -2.5,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Distance": 77.4675,
+      "Zoomed": false
+    },
+    {
+      "Position": {
+        "x": 29.36134,
+        "y": -2.5,
+        "z": -57.1900826
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Distance": 67.81616,
+      "Zoomed": false
+    },
+    {
+      "Position": {
+        "x": -0.00034258407,
+        "y": 27.5,
+        "z": 140.0
+      },
+      "Rotation": {
+        "x": 10.0,
+        "y": -0.000106550047,
+        "z": 0.0
+      },
+      "Distance": 77.4675,
+      "Zoomed": false
+    },
+    {
+      "Position": {
+        "x": 104.838669,
+        "y": -2.5,
+        "z": 21.6634178
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 2.73298133E-06,
+        "z": 0.0
+      },
+      "Distance": 72.0548553,
+      "Zoomed": false
+    },
+    {
+      "Position": {
+        "x": 102.023315,
+        "y": -2.5,
+        "z": -21.0045624
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 2.73298133E-06,
+        "z": 0.0
+      },
+      "Distance": 27.8096485,
+      "Zoomed": false
+    },
+    {
+      "Position": {
+        "x": 90.55828,
+        "y": -2.5,
+        "z": -64.82294
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 2.73298133E-06,
+        "z": 0.0
+      },
+      "Distance": 52.3860664,
+      "Zoomed": false
+    },
+    {
+      "Position": {
+        "x": 0.0,
+        "y": -2.5,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 90.00007,
+        "z": 0.0
+      },
+      "Distance": 116.234146,
+      "Zoomed": false
+    },
+    {
+      "Position": {
+        "x": 0.0,
+        "y": -2.5,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 179.999985,
+        "z": 0.0
+      },
+      "Distance": 77.5125046,
+      "Zoomed": false
+    },
+    {
+      "Position": {
+        "x": 0.0,
+        "y": -2.5,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 269.999969,
+        "z": 0.0
+      },
+      "Distance": 116.235008,
+      "Zoomed": false
+    }
+  ],
+  "DecalPallet": [],
+  "LuaScript": "MOD_NAME = \"Secret Hitler: Sakura\"\n\n----#include \\SHSakura\\src\\_global.ttslua\n----#include \\version.ttslua\nMAJOR_VERSION = 0\r\nMINOR_VERSION = 0\r\nPATCH_VERSION = 0\r\n\r\nVERSION = MAJOR_VERSION .. \".\" .. MINOR_VERSION .. \".\" .. PATCH_VERSION\r\n\n----#include \\version.ttslua\n----#include \\variables.ttslua\n----------Constants----------\r\nDEBUG = true\r\nCOLORS = {\"White\", \"Brown\", \"Red\", \"Orange\", \"Yellow\", \"Green\", \"Teal\", \"Blue\", \"Purple\", \"Pink\"}\r\nOBJECT_GUIDS = {\r\n  settingsPanel = \"39d283\",\r\n  electionTracker = \"dd57c4\",\r\n  text3d = {\"88c953\", \"ba4919\", \"b7dcde\", \"4598da\"},\r\n  placards = {pres = \"4d3d8f\", chan = \"7dba7e\", presPrev = \"780217\", chanPrev = \"448483\"},\r\n  deckHolders = {policyDeck = \"a5b10f\", policyDiscard = \"3e225f\", abilityDeck = \"b525aa\", effectDeck = \"4738c3\"},\r\n  boards = {liberal = \"1943fd\", fascist = \"c09dbd\"},\r\n  playerCards = {\r\n    hitler = {\r\n      {role = \"05df3f\", party = \"7f6315\", ja = \"0171d6\", nein = \"5168b1\"}\r\n    },\r\n    fascist = {\r\n      {role = \"0a595f\", party = \"057722\", ja = \"062363\", nein = \"0474a1\"},\r\n      {role = \"02b663\", party = \"2768aa\", ja = \"b04ea2\", nein = \"f3387e\"},\r\n      {role = \"7b4b45\", party = \"d489e4\", ja = \"e32104\", nein = \"fbf1bf\"},\r\n    },\r\n    liberal = {\r\n      {role = \"675a6e\", party = \"e94c08\", ja = \"417432\", nein = \"2a78ef\"},\r\n      {role = \"ccb7ec\", party = \"f988af\", ja = \"252027\", nein = \"efcad0\"},\r\n      {role = \"16e47f\", party = \"7b91e8\", ja = \"d53a04\", nein = \"2e2d50\"},\r\n      {role = \"c23099\", party = \"9e23fd\", ja = \"33dd8a\", nein = \"5736f8\"},\r\n      {role = \"98f4dc\", party = \"773694\", ja = \"9dbcac\", nein = \"171951\"},\r\n      {role = \"32843f\", party = \"564a73\", ja = \"b25d6a\", nein = \"31be17\"},\r\n    }\r\n  }\r\n}\r\nZONE_GUIDS = {\r\n  scripting = {\r\n    electionTracker = \"c0b577\",\r\n    policyZones = {\r\n      fascist = {\"1f0149\", \"390247\", \"6c3840\", \"13e460\", \"441bbf\", \"6a906e\", \"488053\"},\r\n      liberal = {\"12b8ce\", \"3cabfa\", \"6f02b7\", \"939e6d\", \"3f80ba\", \"a6b76f\"}\r\n    },\r\n    deckHolders = {policyDeck = \"6463d3\", policyDiscard = \"b9bd6e\", abilityDeck = \"eea120\", effectDeck = \"374a16\"},\r\n  },\r\n  hands = {\r\n    White = '92c79c',\r\n    Brown = '2a3851',\r\n    Red = '590ef2',\r\n    Orange = '982b89',\r\n    Yellow = 'a4b0ae',\r\n    Green = '24c93c',\r\n    Teal = 'db77e1',\r\n    Blue = 'f58f25',\r\n    Purple = '2ec2d6',\r\n    Pink = 'dc80d4'\r\n  }\r\n}\r\nHAND_POS = {\r\n  White =     {position = Vector.new(29.30, 4.07, -34.43),  rotation = Vector.new(0.00, 0.00, 0.00)},\r\n  Brown =     {position = Vector.new(0.00, 4.07, -34.43),   rotation = Vector.new(0.00, 0.00, 0.00)},\r\n  Red =       {position = Vector.new(-29.30, 4.07, -34.43), rotation = Vector.new(0.00, 0.00, 0.00)},\r\n  Orange =    {position = Vector.new(-51.66, 4.07, -11.73), rotation = Vector.new(0.00, 90.00, 0.00)},\r\n  Yellow =    {position = Vector.new(-51.66, 4.07, 11.73),  rotation = Vector.new(0.00, 90.00, 0.00)},\r\n  Green =     {position = Vector.new(-29.30, 4.07, 34.43),  rotation = Vector.new(0.00, 180.00, 0.00)},\r\n  Teal =      {position = Vector.new(0.00, 4.07, 34.45),    rotation = Vector.new(0.00, 180.00, 0.00)},\r\n  Blue =      {position = Vector.new(29.30, 4.07, 34.43),   rotation = Vector.new(0.00, 180.00, 0.00)},\r\n  Purple =    {position = Vector.new(51.66, 4.07, 11.73),   rotation = Vector.new(0.00, 270.00, 0.00)},\r\n  Pink =      {position = Vector.new(51.66, 4.07, -11.73),  rotation = Vector.new(0.00, 270.00, 0.00)},\r\n}\r\n\r\n----------Variables----------\r\nobjs = {}\r\nzones = {}\r\noptions = {\r\n  policyCountSettings = \"normal\",\r\n  gameType = \"vanilla\",\r\n  isVotingHistoryOn = true,\r\n  isAutoVotingOn = true,\r\n  policyCounts = {liberal = 6, fascist = 11},\r\n  security = {isMainSecurityOn = true, isPolicySafetyOn = true},\r\n  card = {isDealRolesOn = false, isDealPartyOn = false},\r\n  shuffle = {isShufflePlayersOn = false, isShuffleHostOn = true},\r\n  expansion = {numDealtCards = 3}\r\n}\r\ngameState = {\r\n  started = false,\r\n  numPlayers = 0,\r\n  roundNum = 1,\r\n  phase = 'StartOfRound',\r\n  isHitlerTerritory = false,\r\n  currPresColor = '',\r\n  currChanColor = '',\r\n  prevPresColor = '',\r\n  prevChanColor = '',\r\n  inspectedPlayers = {},\r\n  votingHistory = {},\r\n  policyHistory = {},\r\n  notes = {},\r\n}\r\nplayers = {\r\n  -- color: {\r\n  --   role: [\"liberal\", \"fascist\", \"hitler\"],\r\n  --   isAlive: [true, false],\r\n  --   isSilenced: [true, false],\r\n  --   isConfirmedNotHitler: [true, false],\r\n  --   cards: {}\r\n  -- }\r\n}\r\n\r\nplayerDecks = {}\r\n\n----#include \\variables.ttslua\n----#include \\main.ttslua\nfunction onLoad(saveString)\r\n  if not (saveString == '') then\r\n    local save = JSON.decode(saveString)\r\n    gameState = save['g'] or gameState\r\n    options = save['o'] or options\r\n    players = save['p'] or players\r\n  end\r\n  init()\r\nend\r\n\r\nfunction onSave()\r\n  local save = {\r\n    g = gameState,\r\n    o = options,\r\n    p = players\r\n  }\r\n  return JSON.encode(save)\r\nend\r\n\n----#include \\main.ttslua\n----#include \\init.ttslua\nfunction init()\r\n  objs = initializeObjects(OBJECT_GUIDS)\r\n  zones = initializeObjects(ZONE_GUIDS)\r\n  lockObjects()\r\n  if not gameState.started then\r\n    initializePlayerCards()\r\n    initObjectTags()\r\n  end\r\n  initNotes()\r\nend\r\n\r\nfunction initializeObjects(el)\r\n  if type(el) == \"string\" then\r\n    return getObjectFromGUID(el)\r\n  else\r\n    local out = {}\r\n    for k,v in pairs(el) do\r\n      out[k] = initializeObjects(v)\r\n    end\r\n    return out\r\n  end\r\nend\r\n\r\n  local xOffset = 0\r\n  function initializePlayerCards()\r\n  local zOffset = 0\r\n  for k,category in pairs(objs.playerCards) do\r\n    for i,cardSet in ipairs(category) do\r\n      zOffset = 0\r\n      for k2,card in pairs(cardSet) do\r\n        card.setLock(true)\r\n        card.setScale({0,0,0})\r\n        card.setPosition({xOffset, -100, zOffset})\r\n        zOffset = zOffset + 1\r\n      end\r\n      xOffset = xOffset + 1\r\n    end\r\n  end\r\nend\r\n\r\nfunction lockObjects()\r\n  objs.settingsPanel.interactable = false\r\n  for k,v in pairs(objs.placards) do\r\n    v.interactable = false\r\n  end\r\n  for k,v in pairs(objs.deckHolders) do\r\n    v.interactable = false\r\n  end\r\n  for k,v in pairs(objs.boards) do\r\n    v.interactable = false\r\n  end\r\nend\r\n\r\nfunction initObjectTags()\r\n  for k,v in pairs(objs.placards) do\r\n    v.setTags({'placard'})\r\n  end\r\n  for k,v in pairs(objs.placards) do\r\n    v.setTags({'placard'})\r\n  end\r\n  for role,rolesTab in pairs(objs.playerCards) do\r\n    for i,cardObjsTab in ipairs(rolesTab) do\r\n      for k,obj in pairs(cardObjsTab) do\r\n        obj.setTags({'card', k})\r\n      end\r\n    end\r\n  end\r\nend\r\n\r\nfunction initNotes()\r\n  local notes = {\r\n    '[D060D0]Secret Hitler: Definitive Edition[-]',\r\n    'Version ' .. VERSION\r\n  }\r\n  Notes.setNotes(table.concat(notes, '\\n'))\r\nend\r\n\n----#include \\init.ttslua\n----#include \\utils.ttslua\nfunction isPromoted(playerColor)\r\n  return not not Player[playerColor].admin\r\nend\r\n\r\nfunction debugPrint(val)\r\n  if not DEBUG then return end\r\n  if type(val) == \"table\" then\r\n    print(logString(val))\r\n  else\r\n    print(val)\r\n  end\r\nend\r\n\r\nfunction colorStr(str, color)\r\n  return '[' .. stringColorToRGB(color) .. ']' .. str .. '[-]'\r\nend\r\n\r\nfunction shuffleTable(table)\r\n  local j\r\n  for i = #table, 2, -1 do\r\n    j = math.random(i)\r\n    table[i], table[j] = table[j], table[i]\r\n  end\r\n  return table\r\nend\r\n\n----#include \\utils.ttslua\n----#include \\start_game.ttslua\nfunction startGame()\r\n  initPlayers()\r\n  assignRoles()\r\n  assignPlayerCards()\r\n  dealPlayerCards()\r\nend\r\n\r\nfunction initPlayers()\r\n  -- local playerColors = getSeatedPlayers()\r\n  -- gameState.numPlayers = #playerColors\r\n  local playerColors = {'White', 'Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Purple', 'Pink'}\r\n  gameState.numPlayers = 8\r\n  players = {}\r\n  for i,color in ipairs(playerColors) do\r\n    players[color] = {isAlive = true, isSilenced = false, isConfirmedNotHitler = false}\r\n  end\r\nend\r\n\r\nfunction assignRoles()\r\n  local numLib = math.floor(gameState.numPlayers / 2) + 1\r\n  local numFas = gameState.numPlayers - numLib - 1\r\n  local roles = {\"hitler\"}\r\n  for i=1,numLib do\r\n    table.insert(roles, \"liberal\")\r\n  end\r\n  for i=1,numFas do\r\n    table.insert(roles, \"fascist\")\r\n  end\r\n  shuffleTable(roles)\r\n  local idx = 1\r\n  for color,playerTable in pairs(players) do\r\n    playerTable.role = roles[idx]\r\n    idx = idx + 1\r\n  end\r\nend\r\n\r\nfunction assignPlayerCards()\r\n  local libIdx, fasIdx = 1,1\r\n  for color,playerTable in pairs(players) do\r\n    if playerTable.role == \"hitler\" then\r\n      playerDecks[color] = objs.playerCards.hitler[1]\r\n    elseif playerTable.role == \"fascist\" then\r\n      playerDecks[color] = objs.playerCards.fascist[fasIdx]\r\n      fasIdx = fasIdx + 1\r\n    elseif playerTable.role == \"liberal\" then\r\n      playerDecks[color] = objs.playerCards.liberal[libIdx]\r\n      libIdx = libIdx + 1\r\n    end\r\n  end\r\nend\r\n\r\nfunction dealPlayerCards()\r\n  for color,playerTable in pairs(players) do\r\n    setupCard(playerDecks[color].ja, color)\r\n    setupCard(playerDecks[color].nein, color)\r\n    if options.card.isDealRolesOn then setupCard(playerDecks[color].role, color) end\r\n    if options.card.isDealPartyOn then setupCard(playerDecks[color].party, color) end\r\n  end\r\nend\r\n\r\nfunction setupCard(card, color)\r\n  card.locked = false\r\n  card.interactable = true\r\n  card.setScale({1,1,1})\r\n  dealCardToHand(card, color)\r\nend\r\n\r\nfunction dealCardToHand(card, color)\r\n  card.setPositionSmooth(HAND_POS[color].position, false, false)\r\n  card.setRotationSmooth(HAND_POS[color].rotation, false, false)\r\nend\r\n\n----#include \\start_game.ttslua\n\n----#include \\SHSakura\\src\\_global.ttslua",
+  "LuaScriptState": "{\"g\":{\"currChanColor\":\"\",\"currPresColor\":\"\",\"inspectedPlayers\":[],\"isHitlerTerritory\":false,\"notes\":[],\"numPlayers\":0,\"phase\":\"StartOfRound\",\"policyHistory\":[],\"prevChanColor\":\"\",\"prevPresColor\":\"\",\"roundNum\":1,\"started\":false,\"votingHistory\":[]},\"o\":{\"card\":{\"isDealPartyOn\":false,\"isDealRolesOn\":false},\"expansion\":{\"numDealtCards\":3},\"gameType\":\"vanilla\",\"isAutoVotingOn\":true,\"isVotingHistoryOn\":true,\"policyCounts\":{\"fascist\":11,\"liberal\":6},\"policyCountSettings\":\"normal\",\"security\":{\"isMainSecurityOn\":true,\"isPolicySafetyOn\":true},\"shuffle\":{\"isShuffleHostOn\":true,\"isShufflePlayersOn\":false}},\"p\":[]}",
+  "XmlUI": "<Defaults>\r\n   <Text class=\"outline\" outline=\"Black\" fontSize=\"28\" visibility=\" \"/>\r\n   <Panel class=\"window\" allowDragging=\"true\" returnToOriginalPositionWhenReleased=\"false\" color=\"#EBEBEB\" outline=\"#000000\" outlineSize=\"1 -1\" />\r\n   <Button class=\"window\" fontSize=\"22\" colors=\"#FFFFFF|#FFFFFF|#C8C8C8|#C8C8C880\" />\r\n   <InputField class=\"window\" fontSize=\"20\" colors=\"#FFFFFF|#FFFFFF|#C8C8C8|#C8C8C880\" />\r\n   <Text class=\"window\" fontSize=\"28\" />\r\n   <Button class=\"tp50\" fontSize=\"22\" colors=\"#FFFFFF80|#FFFFFF|#C8C8C880|#C8C8C840\" />\r\n   <Dropdown class=\"tp50\" fontSize=\"16\" colors=\"#FFFFFF80|#FFFFFF|#C8C8C880|#C8C8C840\" />\r\n   <InputField class=\"tp50\" fontSize=\"16\" colors=\"#FFFFFF80|#FFFFFF|#C8C8C880|#C8C8C840\" width=\"0.1\" />\r\n</Defaults>\r\n\r\n<VerticalLayout padding=\"0 0 100 0\" width=\"30%\" rectAlignment=\"UpperLeft\" childAlignment=\"UpperCenter\" childForceExpandHeight=\"false\">\r\n   <Text class=\"outline\" id=\"playerWhite\" color=\"#FFFFFF\">Player White:</Text>\r\n   <Text class=\"outline\" id=\"playerBrown\" color=\"#703A16\">Player Brown:</Text>\r\n   <Text class=\"outline\" id=\"playerRed\" color=\"#DA1917\">Player Red:</Text>\r\n   <Text class=\"outline\" id=\"playerOrange\" color=\"#F3631C\">Player Orange:</Text>\r\n   <Text class=\"outline\" id=\"playerYellow\" color=\"#E6E42B\">Player Yellow:</Text>\r\n   <Text class=\"outline\" id=\"playerGreen\" color=\"#30B22A\">Player Green:</Text>\r\n   <Text class=\"outline\" id=\"playerTeal\" color=\"#20B09A\">Player Teal:</Text>\r\n   <Text class=\"outline\" id=\"playerBlue\" color=\"#1E87FF\">Player Blue:</Text>\r\n   <Text class=\"outline\" id=\"playerPurple\" color=\"#9F1FEF\">Player Purple:</Text>\r\n   <Text class=\"outline\" id=\"playerPink\" color=\"#F36FCD\">Player Pink:</Text>\r\n   <Text class=\"outline\" id=\"youLib\" color=\"#0080F8\">ERROR: youLib</Text>\r\n   <Text class=\"outline\" id=\"youFas\" color=\"#FF0000\">ERROR: youFas</Text>\r\n   <Text class=\"outline\" id=\"youHitler\" color=\"#FF0000\">ERROR: youHitler</Text>\r\n   <Text class=\"outline\" id=\"youNotPlaying\" color=\"#7F7F7F\">You are not playing!</Text>\r\n   <Text class=\"outline\" id=\"hitWhite\" color=\"#FFFFFF\">ERROR: hitWhite</Text>\r\n   <Text class=\"outline\" id=\"hitBrown\" color=\"#703A16\">ERROR: hitBrown</Text>\r\n   <Text class=\"outline\" id=\"hitRed\" color=\"#DA1917\">ERROR: hitRed</Text>\r\n   <Text class=\"outline\" id=\"hitOrange\" color=\"#F3631C\">ERROR: hitOrange</Text>\r\n   <Text class=\"outline\" id=\"hitYellow\" color=\"#E6E42B\">ERROR: hitYellow</Text>\r\n   <Text class=\"outline\" id=\"hitGreen\" color=\"#30B22A\">ERROR: hitGreen</Text>\r\n   <Text class=\"outline\" id=\"hitTeal\" color=\"#20B09A\">ERROR: hitTeal</Text>\r\n   <Text class=\"outline\" id=\"hitBlue\" color=\"#1E87FF\">ERROR: hitBlue</Text>\r\n   <Text class=\"outline\" id=\"hitPurple\" color=\"#9F1FEF\">ERROR: hitPurple</Text>\r\n   <Text class=\"outline\" id=\"hitPink\" color=\"#F36FCD\">ERROR: hitPink</Text>\r\n   <Text class=\"outline\" id=\"hitTan\" color=\"#D2B48C\">ERROR: hitTan</Text>\r\n   <Text class=\"outline\" id=\"hitMaroon\" color=\"#800000\">ERROR: hitMaroon</Text>\r\n   <Text class=\"outline\" id=\"fasWhite\" color=\"#FFFFFF\">ERROR: fasWhite</Text>\r\n   <Text class=\"outline\" id=\"fasBrown\" color=\"#703A16\">ERROR: fasBrown</Text>\r\n   <Text class=\"outline\" id=\"fasRed\" color=\"#DA1917\">ERROR: fasRed</Text>\r\n   <Text class=\"outline\" id=\"fasOrange\" color=\"#F3631C\">ERROR: fasOrange</Text>\r\n   <Text class=\"outline\" id=\"fasYellow\" color=\"#E6E42B\">ERROR: fasYellow</Text>\r\n   <Text class=\"outline\" id=\"fasGreen\" color=\"#30B22A\">ERROR: fasGreen</Text>\r\n   <Text class=\"outline\" id=\"fasTeal\" color=\"#20B09A\">ERROR: fasTeal</Text>\r\n   <Text class=\"outline\" id=\"fasBlue\" color=\"#1E87FF\">ERROR: fasBlue</Text>\r\n   <Text class=\"outline\" id=\"fasPurple\" color=\"#9F1FEF\">ERROR: fasPurple</Text>\r\n   <Text class=\"outline\" id=\"fasPink\" color=\"#F36FCD\">ERROR: fasPink</Text>\r\n   <Text class=\"outline\" id=\"fasTan\" color=\"#D2B48C\">ERROR: fasTan</Text>\r\n   <Text class=\"outline\" id=\"fasMaroon\" color=\"#800000\">ERROR: fasMaroon</Text>\r\n</VerticalLayout>\r\n\r\n<Panel class=\"window\" id=\"admin\" width=\"680\" height=\"140\" rectAlignment=\"Center\" active=\"false\" visibility=\" \">\r\n   <Text class=\"window\" alignment=\"UpperLeft\" offsetXY=\"5 -5\">GREY PLAYER ADMIN</Text>\r\n   <Button class=\"window\" width=\"30\" height=\"30\" rectAlignment=\"UpperRight\" offsetXY=\"-5 -5\" fontSize=\"18\" textColor=\"#B60808\" onClick=\"closeAdminUIB\">X</Button>\r\n   <VerticalLayout padding=\"5 5 40 5\" spacing=\"5\">\r\n      <InputField class=\"window\" onValueChanged=\"playerNameUIIF\">Enter player name (partial allowed but must be distinct) or steam id</InputField>\r\n      <HorizontalLayout spacing=\"5\">\r\n         <Button class=\"window\" onClick=\"sitMaroonUIB\">Sit in Maroon</Button>\r\n         <Button class=\"window\" onClick=\"sitTanUIB\">Sit in Tan</Button>\r\n         <Button class=\"window\" onClick=\"removeColorGreyUIB\">Remove from Seat</Button>\r\n      </HorizontalLayout>\r\n   </VerticalLayout>\r\n</Panel>\r\n\r\n<Panel id=\"adminButton\" width=\"128\" height=\"58\" rectAlignment=\"UpperCenter\" offsetXY=\"260 -100\" active=\"false\" visibility=\" \">\r\n   <Button class=\"tp50\" onClick=\"showAdminUIB\">Grey Player Admin</Button>\r\n</Panel>\r\n\r\n<HorizontalLayout id=\"greyCommands\" padding=\"110 0 0 0\" height=\"8%\" width=\"33%\" rectAlignment=\"LowerLeft\" visibility=\" \">\r\n   <Dropdown class=\"tp50\" onValueChanged=\"actionUID\">\r\n      <Option selected=\"true\" >Choose Action</Option>\r\n      <Option>Choose Chancellor</Option>\r\n      <Option>Inspect Player</Option>\r\n      <Option>Give Presidency To</Option>\r\n   </Dropdown>\r\n   <Dropdown class=\"tp50\" onValueChanged=\"colorUID\">\r\n      <Option selected=\"true\">Choose Player</Option>\r\n      <Option>White</Option>\r\n      <Option>Brown</Option>\r\n      <Option>Red</Option>\r\n      <Option>Orange</Option>\r\n      <Option>Yellow</Option>\r\n      <Option>Green</Option>\r\n      <Option>Teal</Option>\r\n      <Option>Blue</Option>\r\n      <Option>Purple</Option>\r\n      <Option>Pink</Option>\r\n      <Option>Tan</Option>\r\n      <Option>Maroon</Option>\r\n   </Dropdown>\r\n   <Button class=\"tp50\" onClick=\"startUIB\">Start</Button>\r\n</HorizontalLayout>\r\n\r\n<VerticalLayout id=\"greyCommandsExp\" height=\"8%\" width=\"33%\" rectAlignment=\"LowerLeft\" visibility=\" \">\r\n   <HorizontalLayout padding=\"110 0 0 0\">\r\n      <Dropdown class=\"tp50\" onValueChanged=\"actionUID\">\r\n         <Option selected=\"true\">Choose Action</Option>\r\n         <Option>Choose Chancellor</Option>\r\n         <Option>Inspect Player</Option>\r\n         <Option>Give Presidency To</Option>\r\n         <Option>Discard Ability</Option>\r\n         <Option>Reveal Ability</Option>\r\n         <Option>Examine Ability Deck</Option>\r\n         <Option>Take from Ability Deck</Option>\r\n         <Option>Give Card to</Option>\r\n      </Dropdown>\r\n   </HorizontalLayout>\r\n   <HorizontalLayout padding=\"110 0 0 0\">\r\n      <InputField class=\"tp50\" onValueChanged=\"inputUIIF\" width=\"5%\">Enter Card Name</InputField>\r\n      <Dropdown class=\"tp50\" onValueChanged=\"colorUID\">\r\n         <Option selected=\"true\">Choose Player</Option>\r\n         <Option>White</Option>\r\n         <Option>Brown</Option>\r\n         <Option>Red</Option>\r\n         <Option>Orange</Option>\r\n         <Option>Yellow</Option>\r\n         <Option>Green</Option>\r\n         <Option>Teal</Option>\r\n         <Option>Blue</Option>\r\n         <Option>Purple</Option>\r\n         <Option>Pink</Option>\r\n         <Option>Tan</Option>\r\n         <Option>Maroon</Option>\r\n      </Dropdown>\r\n      <Button class=\"tp50\" onClick=\"startUIB\">Start</Button>\r\n   </HorizontalLayout>\r\n</VerticalLayout>\r\n\r\n<HorizontalLayout id=\"greyPolicy\" height=\"8%\" width=\"33%\" rectAlignment=\"LowerCenter\" visibility=\" \">\r\n   <Button class=\"tp50\" onClick=\"drawCardsUIB\">Draw Cards</Button>\r\n   <Button class=\"tp50\" onClick=\"discardLUIB\">Discard L</Button>\r\n   <Button class=\"tp50\" onClick=\"discardFUIB\">Discard F</Button>\r\n   <Button class=\"tp50\" onClick=\"checkCardsUIB\">Check Cards</Button>\r\n</HorizontalLayout>\r\n\r\n<HorizontalLayout id=\"greyVote\" padding=\"0 110 0 0\" height=\"8%\" width=\"33%\" rectAlignment=\"LowerRight\" visibility=\" \">\r\n   <Button class=\"tp50\" onClick=\"voteJaUIB\">Vote ja!</Button>\r\n   <Button class=\"tp50\" onClick=\"voteNeinUIB\">Vote nein</Button>\r\n   <Button class=\"tp50\" onClick=\"voteRemoveUIB\">Remove vote</Button>\r\n   <Button class=\"tp50\" onClick=\"tellRoleButtonUIB\">Role?</Button>\r\n</HorizontalLayout>\r\n\r\n<HorizontalLayout padding=\"0 110 0 0\" height=\"8%\" width=\"14%\" rectAlignment=\"LowerRight\" visibility=\"White|Brown|Red|Orange|Yellow|Green|Teal|Blue|Purple|Pink|Black\">\r\n   <Button class=\"tp50\" onClick=\"tellRoleButtonUIB\">Role?</Button>\r\n</HorizontalLayout>",
+  "ObjectStates": [
+    {
+      "GUID": "f58f25",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 29.3000031,
+        "posY": 4.07140875,
+        "posZ": 34.43,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 15.3329,
+        "scaleY": 7.002465,
+        "scaleZ": 6.34853172
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.117999978,
+        "g": 0.53,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Blue",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "2a3851",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 4.07140875,
+        "posZ": -34.43,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 15.3268919,
+        "scaleY": 7.002465,
+        "scaleZ": 6.35014534
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.442999959,
+        "g": 0.230999947,
+        "b": 0.0899999961,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Brown",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "24c93c",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -29.3000031,
+        "posY": 4.07140875,
+        "posZ": 34.43,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 15.3329,
+        "scaleY": 7.002465,
+        "scaleZ": 6.34853172
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.191999972,
+        "g": 0.701,
+        "b": 0.167999953,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Green",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "982b89",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -51.6596222,
+        "posY": 4.07140875,
+        "posZ": -11.7299976,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 15.2257252,
+        "scaleY": 7.002465,
+        "scaleZ": 6.417866
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9559999,
+        "g": 0.39199996,
+        "b": 0.112999953,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Orange",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "dc80d4",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 51.6600037,
+        "posY": 4.07140875,
+        "posZ": -11.7299976,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 15.2250681,
+        "scaleY": 7.002465,
+        "scaleZ": 6.417512
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.96,
+        "g": 0.438999981,
+        "b": 0.807,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Pink",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "2ec2d6",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 51.6600037,
+        "posY": 4.07140875,
+        "posZ": 11.7299976,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 15.2247181,
+        "scaleY": 7.002465,
+        "scaleZ": 6.417323
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.627,
+        "g": 0.124999978,
+        "b": 0.941,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Purple",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "590ef2",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -29.3000031,
+        "posY": 4.07140875,
+        "posZ": -34.43,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 15.3329,
+        "scaleY": 7.002465,
+        "scaleZ": 6.34853172
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.09999997,
+        "b": 0.09399996,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Red",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "db77e1",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 4.07140875,
+        "posZ": 34.45,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 15.3329468,
+        "scaleY": 7.002465,
+        "scaleZ": 6.3485384
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.128999949,
+        "g": 0.694,
+        "b": 0.606999934,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Teal",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "92c79c",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 29.3000031,
+        "posY": 4.07140875,
+        "posZ": -34.43,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 15.3329,
+        "scaleY": 7.002465,
+        "scaleZ": 6.34853172
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "White",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "a4b0ae",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -51.6596222,
+        "posY": 4.07140875,
+        "posZ": 11.7299976,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 15.2255945,
+        "scaleY": 7.002465,
+        "scaleZ": 6.417801
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.171999961,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Yellow",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "dbd95e",
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": 29.65,
+        "posY": 3.51,
+        "posZ": 31.9,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 28.4,
+        "scaleY": 5.1,
+        "scaleZ": 11.8
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.117999978,
+        "g": 0.53,
+        "b": 1.0,
+        "a": 0.25
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Blue",
+      "FogHidePointers": true,
+      "FogReverseHiding": false,
+      "FogSeethrough": true,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "cc1b94",
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": 50.2,
+        "posY": 3.51,
+        "posZ": 19.25,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 9.55,
+        "scaleY": 5.1,
+        "scaleZ": 37.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.627,
+        "g": 0.124999978,
+        "b": 0.941,
+        "a": 0.25
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Purple",
+      "FogHidePointers": true,
+      "FogReverseHiding": false,
+      "FogSeethrough": true,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "d954ee",
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": 50.2,
+        "posY": 3.51,
+        "posZ": -19.25,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 9.55,
+        "scaleY": 5.1,
+        "scaleZ": 37.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.96,
+        "g": 0.438999981,
+        "b": 0.807,
+        "a": 0.25
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Pink",
+      "FogHidePointers": true,
+      "FogReverseHiding": false,
+      "FogSeethrough": true,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "f13d0b",
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": 29.65,
+        "posY": 3.51,
+        "posZ": -31.9,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 28.4,
+        "scaleY": 5.1,
+        "scaleZ": 11.8
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.25
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "White",
+      "FogHidePointers": true,
+      "FogReverseHiding": false,
+      "FogSeethrough": true,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "90049b",
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 3.51,
+        "posZ": -31.9,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 28.4,
+        "scaleY": 5.1,
+        "scaleZ": 11.8
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.442999959,
+        "g": 0.230999947,
+        "b": 0.0899999961,
+        "a": 0.25
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Brown",
+      "FogHidePointers": true,
+      "FogReverseHiding": false,
+      "FogSeethrough": true,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "134297",
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": -29.65,
+        "posY": 3.51,
+        "posZ": -31.9,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 28.4,
+        "scaleY": 5.1,
+        "scaleZ": 11.8
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.09999997,
+        "b": 0.09399996,
+        "a": 0.25
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Red",
+      "FogHidePointers": true,
+      "FogReverseHiding": false,
+      "FogSeethrough": true,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "344002",
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": -50.2,
+        "posY": 3.51,
+        "posZ": -19.25,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 9.55,
+        "scaleY": 5.1,
+        "scaleZ": 37.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9559999,
+        "g": 0.39199996,
+        "b": 0.112999953,
+        "a": 0.25
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Orange",
+      "FogHidePointers": true,
+      "FogReverseHiding": false,
+      "FogSeethrough": true,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "9b5558",
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": -50.2,
+        "posY": 3.51,
+        "posZ": 19.25,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 9.55,
+        "scaleY": 5.1,
+        "scaleZ": 37.25
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.171999961,
+        "a": 0.25
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Yellow",
+      "FogHidePointers": true,
+      "FogReverseHiding": false,
+      "FogSeethrough": true,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "7a8301",
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": -29.65,
+        "posY": 3.51,
+        "posZ": 31.9,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 28.4,
+        "scaleY": 5.1,
+        "scaleZ": 11.8
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.191999972,
+        "g": 0.701,
+        "b": 0.167999953,
+        "a": 0.25
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Green",
+      "FogHidePointers": true,
+      "FogReverseHiding": false,
+      "FogSeethrough": true,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "568a75",
+      "Name": "FogOfWarTrigger",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 3.51,
+        "posZ": 31.9,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 28.4,
+        "scaleY": 5.1,
+        "scaleZ": 11.8
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.128999949,
+        "g": 0.694,
+        "b": 0.606999934,
+        "a": 0.25
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Teal",
+      "FogHidePointers": true,
+      "FogReverseHiding": false,
+      "FogSeethrough": true,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "6d5247",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 145.0,
+        "posY": -10.0,
+        "posZ": 145.0,
+        "rotX": 0.0,
+        "rotY": 224.999985,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "Dual Banner",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/487893695356608353/3A0A7A1DCA78130E44568A1C30620461B150E3E2/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/487893695356609153/209B6DDC56019A27B473CC230E9217827CAC6EA4/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/487893695356616224/E3E39A827C062914E4185D8757A81D4D14892B8B/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "aa23ae",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -145.0,
+        "posY": -10.0,
+        "posZ": -145.0,
+        "rotX": 0.0,
+        "rotY": 45.0000038,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "Dual Banner",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/487893695356608353/3A0A7A1DCA78130E44568A1C30620461B150E3E2/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/487893695356609153/209B6DDC56019A27B473CC230E9217827CAC6EA4/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/487893695356616224/E3E39A827C062914E4185D8757A81D4D14892B8B/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "15583c",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 145.0,
+        "posY": -10.0,
+        "posZ": -145.0,
+        "rotX": 0.0,
+        "rotY": 315.000031,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "Dual Banner",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/487893695356608353/3A0A7A1DCA78130E44568A1C30620461B150E3E2/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/487893695356609153/209B6DDC56019A27B473CC230E9217827CAC6EA4/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/487893695356616224/E3E39A827C062914E4185D8757A81D4D14892B8B/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "4aeb2b",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -145.0,
+        "posY": -10.0,
+        "posZ": 145.0,
+        "rotX": 0.0,
+        "rotY": 135.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "Dual Banner",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/487893695356608353/3A0A7A1DCA78130E44568A1C30620461B150E3E2/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/487893695356609153/209B6DDC56019A27B473CC230E9217827CAC6EA4/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/487893695356616224/E3E39A827C062914E4185D8757A81D4D14892B8B/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "c09dbd",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 1.05,
+        "posZ": 6.0,
+        "rotX": 0.0,
+        "rotY": 180.000778,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "Fascist Track",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/493521040874890894/115614CA7EE655E9EB09B8640CEC08B94AD8194D/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/493520552407948654/1FA580824CD17C073684841D5BDC30ACC29D259A/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 10.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 11.85,
+            "y": 0.1,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 11.85,
+            "y": 0.1,
+            "z": 2.1
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 7.95,
+            "y": 0.1,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 7.95,
+            "y": 0.1,
+            "z": 2.1
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 4.0,
+            "y": 0.1,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 4.0,
+            "y": 0.1,
+            "z": 2.1
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.0,
+            "y": 0.1,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 0.0,
+            "y": 0.1,
+            "z": 2.1
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -3.9,
+            "y": 0.1,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -3.9,
+            "y": 0.1,
+            "z": 2.1
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -7.9,
+            "y": 0.1,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -7.9,
+            "y": 0.1,
+            "z": 2.1
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -11.95,
+            "y": 0.1,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -11.95,
+            "y": 0.1,
+            "z": 2.1
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "1943fd",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -4.69947651E-07,
+        "posY": 1.06000018,
+        "posZ": -6.000004,
+        "rotX": 0.0,
+        "rotY": 180.000778,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "Liberal Track",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/493521040874890894/115614CA7EE655E9EB09B8640CEC08B94AD8194D/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/493520552409218829/47433942581049D999EECC6F50083D09B6F62A6C/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 10.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 3.97,
+            "y": 0.1,
+            "z": 3.385
+          }
+        },
+        {
+          "Position": {
+            "x": 1.29,
+            "y": 0.1,
+            "z": 3.385
+          }
+        },
+        {
+          "Position": {
+            "x": -1.41,
+            "y": 0.1,
+            "z": 3.385
+          }
+        },
+        {
+          "Position": {
+            "x": -4.1,
+            "y": 0.1,
+            "z": 3.385
+          }
+        },
+        {
+          "Position": {
+            "x": 9.9,
+            "y": 0.1,
+            "z": -0.1
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 9.9,
+            "y": 0.1,
+            "z": 2.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 5.95,
+            "y": 0.1,
+            "z": -0.1
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 5.95,
+            "y": 0.1,
+            "z": 2.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 2.0,
+            "y": 0.1,
+            "z": -0.1
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": 2.0,
+            "y": 0.1,
+            "z": 2.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -1.95,
+            "y": 0.1,
+            "z": -0.1
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -1.95,
+            "y": 0.1,
+            "z": 2.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -6.0,
+            "y": 0.1,
+            "z": -0.1
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -6.0,
+            "y": 0.1,
+            "z": 2.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -9.95,
+            "y": 0.1,
+            "z": -0.1
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Position": {
+            "x": -9.95,
+            "y": 0.1,
+            "z": 2.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "3e225f",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 20.0,
+        "posY": 1.06000006,
+        "posZ": -6.0,
+        "rotX": -1.01801936E-06,
+        "rotY": 179.99411,
+        "rotZ": 180.000778,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "0",
+      "Description": "Discard Pile",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/487893695356644836/6F5D2BC3DEFB2C8B3B881E97C10EA5B4A4348265/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/487893695356644292/42C47439AECD61034EA9A64440E654CC702BF51E/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 5.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.00338573358,
+            "y": 0.100000076,
+            "z": -0.3169564
+          },
+          "Rotation": {
+            "x": 1.90922336E-07,
+            "y": 0.05601249,
+            "z": 180.001465
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "a5b10f",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -20.0,
+        "posY": 1.06000018,
+        "posZ": -6.0,
+        "rotX": -6.89671253E-07,
+        "rotY": 179.971725,
+        "rotZ": 1.00968919E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "0",
+      "Description": "Draw Pile\nClick the button to draw!",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/487893695356644836/6F5D2BC3DEFB2C8B3B881E97C10EA5B4A4348265/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/487893695357072850/998421A2E131CE65811DAC5F8A4774BB01BCF440/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 5.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.00338573358,
+            "y": 0.100000076,
+            "z": -0.3169564
+          },
+          "Rotation": {
+            "x": 1.90922336E-07,
+            "y": 0.05601249,
+            "z": 180.00148
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "6463d3",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -20.0035362,
+        "posY": 3.65,
+        "posZ": -5.68,
+        "rotX": 0.0,
+        "rotY": 359.832733,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 5.1,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "b9bd6e",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 20.0035362,
+        "posY": 3.65,
+        "posZ": -5.68,
+        "rotX": 0.0,
+        "rotY": 359.832733,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 5.1,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "c0b577",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 4.13882,
+        "posY": 3.65,
+        "posZ": -9.360994,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 5.1,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "1f0149",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -11.85,
+        "posY": 3.65,
+        "posZ": 5.9,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 5.1,
+        "scaleZ": 5.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "390247",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -7.95,
+        "posY": 3.65,
+        "posZ": 5.9,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 5.1,
+        "scaleZ": 5.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "6c3840",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -4.0,
+        "posY": 3.65,
+        "posZ": 5.9,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 5.1,
+        "scaleZ": 5.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "13e460",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 3.65,
+        "posZ": 5.9,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 5.1,
+        "scaleZ": 5.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "441bbf",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 3.9,
+        "posY": 3.65,
+        "posZ": 5.9,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 5.1,
+        "scaleZ": 5.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "6a906e",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 7.9,
+        "posY": 3.65,
+        "posZ": 5.9,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 5.1,
+        "scaleZ": 5.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "488053",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 11.95,
+        "posY": 3.65,
+        "posZ": 5.95,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 5.1,
+        "scaleZ": 5.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "12b8ce",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -9.9,
+        "posY": 3.65,
+        "posZ": -5.9,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 5.1,
+        "scaleZ": 5.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "3cabfa",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -5.73,
+        "posY": 3.65,
+        "posZ": -5.9,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 5.1,
+        "scaleZ": 5.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "6f02b7",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -1.93,
+        "posY": 3.65,
+        "posZ": -5.9,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 5.1,
+        "scaleZ": 5.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "939e6d",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 2.05,
+        "posY": 3.65,
+        "posZ": -5.9,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 5.1,
+        "scaleZ": 5.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "3f80ba",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 6.0,
+        "posY": 3.65,
+        "posZ": -5.9,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 5.1,
+        "scaleZ": 5.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "a6b76f",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 10.0,
+        "posY": 3.65,
+        "posZ": -5.9,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 5.1,
+        "scaleZ": 5.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "448483",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 16.5,
+        "posY": 1.06,
+        "posZ": -16.9999981,
+        "rotX": -5.891129E-07,
+        "rotY": 90.0000153,
+        "rotZ": 8.42735446E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "Previously Elected\nChancellor",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "Tags": [
+        "placard"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/487893695357318766/9B57AEFF6E2B10409A4EE57CF1E6766EE916D519/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/487893695357319590/2ACD160262A9173B0D3DA2BB39F4CB64DBD05746/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "780217",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -16.5,
+        "posY": 1.06,
+        "posZ": -17.0,
+        "rotX": -1.1385999E-07,
+        "rotY": 270.0,
+        "rotZ": -2.29358278E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "Previously Elected\nPresident",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "Tags": [
+        "placard"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/487893695357318766/9B57AEFF6E2B10409A4EE57CF1E6766EE916D519/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/487893695357324305/404778C406FD1D5E42878DBC919A2C702ECFBD69/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "4d3d8f",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -16.5,
+        "posY": 2.08014941,
+        "posZ": 17.0,
+        "rotX": 1.63783061E-05,
+        "rotY": 270.0,
+        "rotZ": -1.59044328E-06,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "Presidency Placard",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "Tags": [
+        "placard"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/487893695357328317/E4BE8BAD2AAF1DF1E3701CC9F81E26D5EE8ECBA1/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/487893695357329148/7AD67B1F399FF0DAFA7DCD1042F496F2DE808EF5/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/487893695357328317/E4BE8BAD2AAF1DF1E3701CC9F81E26D5EE8ECBA1/",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 4,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 7.0,
+          "FresnelStrength": 0.4
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "7dba7e",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 16.5,
+        "posY": 2.08,
+        "posZ": 17.0,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "Chancellorship Placard",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "Tags": [
+        "placard"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/487893695357343978/5228C8D8C72C5210139EE69714F8B579A6C44D41/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/487893695357344772/0483EE4D833039AE838E2772F9EE8885A04FC934/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/487893695357344398/D4079A1675624B66BB33D66ABD9CEA1206BBD054/",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "88c953",
+      "Name": "3DText",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 20.0000267,
+        "posZ": 144.0001,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Text": {
+        "Text": "Last Vote",
+        "colorstate": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "fontSize": 256
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "ba4919",
+      "Name": "3DText",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 20.0000267,
+        "posZ": -144.0001,
+        "rotX": 0.0,
+        "rotY": 180.000778,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Text": {
+        "Text": "Last Vote",
+        "colorstate": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "fontSize": 256
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "b7dcde",
+      "Name": "3DText",
+      "Transform": {
+        "posX": 144.0001,
+        "posY": 20.0000267,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Text": {
+        "Text": "Last Vote",
+        "colorstate": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "fontSize": 256
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "4598da",
+      "Name": "3DText",
+      "Transform": {
+        "posX": -144.0001,
+        "posY": 20.0000267,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Text": {
+        "Text": "Last Vote",
+        "colorstate": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "fontSize": 256
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "dd57c4",
+      "Name": "backgammon_piece_white",
+      "Transform": {
+        "posX": -3.970005,
+        "posY": 1.27525151,
+        "posZ": -9.385001,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "Election Tracker",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.305873543,
+        "b": 0.427442133
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "eea120",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": -20.0,
+        "posY": 3.65,
+        "posZ": 6.1,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 5.1,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "374a16",
+      "Name": "ScriptingTrigger",
+      "Transform": {
+        "posX": 20.0,
+        "posY": 3.65,
+        "posZ": 6.1,
+        "rotX": 0.0,
+        "rotY": -3.19132027E-07,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 5.1,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.509803951
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "39d283",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 32.911747,
+        "posY": 1.0475018,
+        "posZ": 0.0,
+        "rotX": 1.68436749E-08,
+        "rotY": 180.000778,
+        "rotZ": -1.3709005E-09,
+        "scaleX": 0.8750002,
+        "scaleY": 0.8750002,
+        "scaleZ": 0.8750002
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/478893369645758279/27A53856DDB93448D88351E67184EDC0B4EEF2BD/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/937184731423515154/F6691FD050599E5767A14E158D88948E1F233791/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "4738c3",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 19.99734,
+        "posY": 1.06000018,
+        "posZ": 6.0,
+        "rotX": 1.36098436E-07,
+        "rotY": 180.013657,
+        "rotZ": 4.4379977E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "0",
+      "Description": "Effects and Artifacts Pile",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/487893695356644836/6F5D2BC3DEFB2C8B3B881E97C10EA5B4A4348265/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/933809569632275589/158E39D097DBC02755A884A813ED14E080BACBBB/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 5.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.00338573358,
+            "y": 0.100000076,
+            "z": -0.3169564
+          },
+          "Rotation": {
+            "x": 1.90922336E-07,
+            "y": 0.05601249,
+            "z": 180.001465
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "b525aa",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -20.0,
+        "posY": 1.06000006,
+        "posZ": 6.0,
+        "rotX": -3.38809372E-08,
+        "rotY": 180.0,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "0",
+      "Description": "Abilities Pile",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/487893695356644836/6F5D2BC3DEFB2C8B3B881E97C10EA5B4A4348265/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/933809569632275589/158E39D097DBC02755A884A813ED14E080BACBBB/",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 4,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.4,
+        "DynamicFriction": 0.4,
+        "Bounciness": 0.0,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 5.0,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.00338573358,
+            "y": 0.100000076,
+            "z": -0.3169564
+          },
+          "Rotation": {
+            "x": 1.90922336E-07,
+            "y": 0.05601249,
+            "z": 180.001465
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "459d15",
+      "Name": "Card",
+      "Transform": {
+        "posX": -11.85,
+        "posY": 1.16360486,
+        "posZ": 6.0,
+        "rotX": 5.309081E-08,
+        "rotY": 180.0,
+        "rotZ": -1.22966552E-08,
+        "scaleX": 1.51,
+        "scaleY": 1.0,
+        "scaleZ": 1.51
+      },
+      "Nickname": "",
+      "Description": "Not Used",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 10205,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "102": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/968725783513761884/D20A41E646CE901CA81FC067E81072BBDA9313C4/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767005708571374/C5FBC566556E3FBE9A6C8ACCDB2472FA911A253A/",
+          "NumWidth": 4,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "556038",
+      "Name": "Card",
+      "Transform": {
+        "posX": -9.9,
+        "posY": 1.17360508,
+        "posZ": -5.8,
+        "rotX": -1.15132126E-08,
+        "rotY": 180.0,
+        "rotZ": -1.74770278E-08,
+        "scaleX": 1.51,
+        "scaleY": 1.0,
+        "scaleZ": 1.51
+      },
+      "Nickname": "",
+      "Description": "Not Used",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 10204,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "102": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/968725783513761884/D20A41E646CE901CA81FC067E81072BBDA9313C4/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767005708571374/C5FBC566556E3FBE9A6C8ACCDB2472FA911A253A/",
+          "NumWidth": 4,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "65ce5f",
+      "Name": "Card",
+      "Transform": {
+        "posX": -4.789058E-12,
+        "posY": 1.16360486,
+        "posZ": 6.0,
+        "rotX": 5.7582227E-08,
+        "rotY": 180.0,
+        "rotZ": -1.87657179E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "The president examines\nthe top three cards.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 10000,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "100": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/809997459545222830/36C579AD5879CA194D3142C7C1940E2AE19F888E/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/809997459545150312/0CAC8BEF72548FBBABB723081596771432C78476/",
+          "NumWidth": 10,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "e6b565",
+      "Name": "Card",
+      "Transform": {
+        "posX": 3.9,
+        "posY": 1.16360486,
+        "posZ": 6.0,
+        "rotX": 8.383185E-08,
+        "rotY": 180.0,
+        "rotZ": 1.2902702E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "The president must\nkill a player.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 10010,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "100": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/809997459545222830/36C579AD5879CA194D3142C7C1940E2AE19F888E/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/809997459545150312/0CAC8BEF72548FBBABB723081596771432C78476/",
+          "NumWidth": 10,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "db6d41",
+      "Name": "Card",
+      "Transform": {
+        "posX": 7.9,
+        "posY": 1.16360486,
+        "posZ": 6.0,
+        "rotX": -2.070395E-08,
+        "rotY": 180.0,
+        "rotZ": 1.38182683E-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "The president must\nkill a player.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 10010,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "100": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/809997459545222830/36C579AD5879CA194D3142C7C1940E2AE19F888E/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/809997459545150312/0CAC8BEF72548FBBABB723081596771432C78476/",
+          "NumWidth": 10,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "de81ec",
+      "Name": "Card",
+      "Transform": {
+        "posX": 7.9,
+        "posY": 1.16360486,
+        "posZ": 3.9,
+        "rotX": -1.37809849E-07,
+        "rotY": 180.0,
+        "rotZ": -1.65948659E-08,
+        "scaleX": 0.3,
+        "scaleY": 1.0,
+        "scaleZ": 0.3
+      },
+      "Nickname": "",
+      "Description": "Veto power is\nunlocked.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CardID": 10101,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "101": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/972100947052102628/F255D2E89C2A1D4FAA9C1AEC714802863A388D8C/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/972100947052102628/F255D2E89C2A1D4FAA9C1AEC714802863A388D8C/",
+          "NumWidth": 3,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": true,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "05df3f",
+      "Name": "Card",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -100.0,
+        "posZ": 0.0,
+        "rotX": 5.877992E-09,
+        "rotY": 179.991623,
+        "rotZ": -1.08438776E-07,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Hitler Role Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "role"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 109500,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1095": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/486767061412116401/336CAFD99D8CF70D8371094E048AB7B2CDD23DC3/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061412115929/FBB86CA2DAEF0B27A2643AC720B8212CDF10E0FA/",
+          "NumWidth": 4,
+          "NumHeight": 3,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "7f6315",
+      "Name": "Card",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -100.0,
+        "posZ": 1.0,
+        "rotX": 2.76093388E-08,
+        "rotY": 180.0001,
+        "rotZ": -8.666076E-08,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Fascist Party Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "party"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 64201,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "642": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/492401650180628533/5900E7D25B5FDD53C4FE06B974A9F49262944DB7/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061409390371/ED89BABA304C2ED50EBCDC14FA6A5DA60734A72D/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "0171d6",
+      "Name": "Card",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -100.0,
+        "posZ": 2.0,
+        "rotX": -1.47171217E-08,
+        "rotY": 179.998978,
+        "rotZ": -7.31904564E-08,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Ja Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "ja"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 24500,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "245": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "5168b1",
+      "Name": "Card",
+      "Transform": {
+        "posX": 0.0,
+        "posY": -100.0,
+        "posZ": 3.0,
+        "rotX": -3.19344167E-07,
+        "rotY": 180.0,
+        "rotZ": -2.62822277E-06,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Nein Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "nein"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 24601,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "246": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "0474a1",
+      "Name": "Card",
+      "Transform": {
+        "posX": 1.0,
+        "posY": -100.0,
+        "posZ": 3.0,
+        "rotX": 0.0007880885,
+        "rotY": 179.998077,
+        "rotZ": 0.001471811,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Nein Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "nein"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 25201,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "252": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "062363",
+      "Name": "Card",
+      "Transform": {
+        "posX": 1.0,
+        "posY": -100.0,
+        "posZ": 2.0,
+        "rotX": 0.000387973443,
+        "rotY": 180.000031,
+        "rotZ": -0.002697557,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Ja Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "ja"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 25100,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "251": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "057722",
+      "Name": "Card",
+      "Transform": {
+        "posX": 1.0,
+        "posY": -100.0,
+        "posZ": 1.0,
+        "rotX": 0.0005515043,
+        "rotY": 180.000092,
+        "rotZ": 0.00155853236,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Fascist Party Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "party"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 64601,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "646": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/492401650180628533/5900E7D25B5FDD53C4FE06B974A9F49262944DB7/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061409390371/ED89BABA304C2ED50EBCDC14FA6A5DA60734A72D/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "0a595f",
+      "Name": "Card",
+      "Transform": {
+        "posX": 1.0,
+        "posY": -100.0,
+        "posZ": 0.0,
+        "rotX": 3.24967323E-06,
+        "rotY": 179.999817,
+        "rotZ": -3.95620082E-05,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Fascist Role Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "role"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 11703,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "117": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/486767061412116401/336CAFD99D8CF70D8371094E048AB7B2CDD23DC3/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061412115929/FBB86CA2DAEF0B27A2643AC720B8212CDF10E0FA/",
+          "NumWidth": 4,
+          "NumHeight": 3,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "f3387e",
+      "Name": "Card",
+      "Transform": {
+        "posX": 2.0,
+        "posY": -100.0,
+        "posZ": 3.0,
+        "rotX": 0.02294767,
+        "rotY": 180.004166,
+        "rotZ": 0.000118298143,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Nein Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "nein"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 24801,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "248": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "b04ea2",
+      "Name": "Card",
+      "Transform": {
+        "posX": 2.0,
+        "posY": -100.0,
+        "posZ": 2.0,
+        "rotX": 0.005418648,
+        "rotY": 180.000641,
+        "rotZ": 0.00171755347,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Ja Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "ja"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 24700,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "247": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "2768aa",
+      "Name": "Card",
+      "Transform": {
+        "posX": 2.0,
+        "posY": -100.0,
+        "posZ": 1.0,
+        "rotX": 0.005560519,
+        "rotY": 179.999481,
+        "rotZ": 0.00371527323,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Fascist Party Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "party"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 64301,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "643": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/492401650180628533/5900E7D25B5FDD53C4FE06B974A9F49262944DB7/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061409390371/ED89BABA304C2ED50EBCDC14FA6A5DA60734A72D/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "02b663",
+      "Name": "Card",
+      "Transform": {
+        "posX": 2.0,
+        "posY": -100.0,
+        "posZ": 0.0,
+        "rotX": 0.00019504485,
+        "rotY": 179.998932,
+        "rotZ": -0.000197907444,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Fascist Role Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "role"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 11301,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "113": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/486767061412116401/336CAFD99D8CF70D8371094E048AB7B2CDD23DC3/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061412115929/FBB86CA2DAEF0B27A2643AC720B8212CDF10E0FA/",
+          "NumWidth": 4,
+          "NumHeight": 3,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "fbf1bf",
+      "Name": "Card",
+      "Transform": {
+        "posX": 3.0,
+        "posY": -100.0,
+        "posZ": 3.0,
+        "rotX": 356.764221,
+        "rotY": 180.0009,
+        "rotZ": -0.0005393971,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Nein Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "nein"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 25001,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "250": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "e32104",
+      "Name": "Card",
+      "Transform": {
+        "posX": 3.0,
+        "posY": -100.0,
+        "posZ": 2.0,
+        "rotX": 356.76358,
+        "rotY": 179.997849,
+        "rotZ": -0.0005153056,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Ja Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "ja"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 24900,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "249": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "d489e4",
+      "Name": "Card",
+      "Transform": {
+        "posX": 3.0,
+        "posY": -100.0,
+        "posZ": 1.0,
+        "rotX": -5.31439461E-08,
+        "rotY": 180.032013,
+        "rotZ": 7.442706E-08,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Fascist Party Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "party"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 64501,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "645": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/492401650180628533/5900E7D25B5FDD53C4FE06B974A9F49262944DB7/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061409390371/ED89BABA304C2ED50EBCDC14FA6A5DA60734A72D/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "7b4b45",
+      "Name": "Card",
+      "Transform": {
+        "posX": 3.0,
+        "posY": -100.0,
+        "posZ": 0.0,
+        "rotX": 1.64910645E-08,
+        "rotY": 180.0,
+        "rotZ": -8.938132E-09,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Fascist Role Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "role"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 64402,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "644": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/486767061412116401/336CAFD99D8CF70D8371094E048AB7B2CDD23DC3/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061412115929/FBB86CA2DAEF0B27A2643AC720B8212CDF10E0FA/",
+          "NumWidth": 4,
+          "NumHeight": 3,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "2a78ef",
+      "Name": "Card",
+      "Transform": {
+        "posX": 4.0,
+        "posY": -100.0,
+        "posZ": 3.0,
+        "rotX": 3.321755E-08,
+        "rotY": 180.000015,
+        "rotZ": 3.61578678E-08,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Nein Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "nein"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 25401,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "254": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "417432",
+      "Name": "Card",
+      "Transform": {
+        "posX": 4.0,
+        "posY": -100.0,
+        "posZ": 2.0,
+        "rotX": -3.54457974E-08,
+        "rotY": 179.997421,
+        "rotZ": -5.31422053E-08,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Ja Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "ja"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 25300,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "253": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "e94c08",
+      "Name": "Card",
+      "Transform": {
+        "posX": 4.0,
+        "posY": -100.0,
+        "posZ": 1.0,
+        "rotX": -3.43102813E-09,
+        "rotY": 180.002991,
+        "rotZ": 1.54950271E-07,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Liberal Party Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "party"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 64700,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "647": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/492401650180628533/5900E7D25B5FDD53C4FE06B974A9F49262944DB7/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061409390371/ED89BABA304C2ED50EBCDC14FA6A5DA60734A72D/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "675a6e",
+      "Name": "Card",
+      "Transform": {
+        "posX": 4.0,
+        "posY": -100.0,
+        "posZ": 0.0,
+        "rotX": -1.83041085E-08,
+        "rotY": 179.986282,
+        "rotZ": -5.59917055E-08,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Liberal Role Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "role"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 11904,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "119": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/486767061412116401/336CAFD99D8CF70D8371094E048AB7B2CDD23DC3/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061412115929/FBB86CA2DAEF0B27A2643AC720B8212CDF10E0FA/",
+          "NumWidth": 4,
+          "NumHeight": 3,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "efcad0",
+      "Name": "Card",
+      "Transform": {
+        "posX": 5.0,
+        "posY": -100.0,
+        "posZ": 3.0,
+        "rotX": -3.576024E-08,
+        "rotY": 180.007889,
+        "rotZ": 5.60759128E-09,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Nein Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "nein"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 26001,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "260": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "252027",
+      "Name": "Card",
+      "Transform": {
+        "posX": 5.0,
+        "posY": -100.0,
+        "posZ": 2.0,
+        "rotX": -8.183649E-08,
+        "rotY": 180.011627,
+        "rotZ": 7.75370552E-07,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Ja Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "ja"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 25900,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "259": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "f988af",
+      "Name": "Card",
+      "Transform": {
+        "posX": 5.0,
+        "posY": -100.0,
+        "posZ": 1.0,
+        "rotX": -2.3713616E-08,
+        "rotY": 179.9987,
+        "rotZ": 1.05041075E-07,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Liberal Party Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "party"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 65000,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "650": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/492401650180628533/5900E7D25B5FDD53C4FE06B974A9F49262944DB7/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061409390371/ED89BABA304C2ED50EBCDC14FA6A5DA60734A72D/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "ccb7ec",
+      "Name": "Card",
+      "Transform": {
+        "posX": 5.0,
+        "posY": -100.0,
+        "posZ": 0.0,
+        "rotX": -3.220011E-08,
+        "rotY": 180.003326,
+        "rotZ": 2.2750509E-08,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Liberal Role Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "role"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 70607,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "706": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/486767061412116401/336CAFD99D8CF70D8371094E048AB7B2CDD23DC3/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061412115929/FBB86CA2DAEF0B27A2643AC720B8212CDF10E0FA/",
+          "NumWidth": 4,
+          "NumHeight": 3,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "7b91e8",
+      "Name": "Card",
+      "Transform": {
+        "posX": 6.0,
+        "posY": -100.0,
+        "posZ": 1.0,
+        "rotX": -2.21354917E-08,
+        "rotY": 180.00827,
+        "rotZ": 4.98981159E-08,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Liberal Party Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "party"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 64900,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "649": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/492401650180628533/5900E7D25B5FDD53C4FE06B974A9F49262944DB7/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061409390371/ED89BABA304C2ED50EBCDC14FA6A5DA60734A72D/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "d53a04",
+      "Name": "Card",
+      "Transform": {
+        "posX": 6.0,
+        "posY": -100.0,
+        "posZ": 2.0,
+        "rotX": -1.88147345E-10,
+        "rotY": 179.967316,
+        "rotZ": 3.369374E-09,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Ja Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "ja"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 25700,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "257": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "2e2d50",
+      "Name": "Card",
+      "Transform": {
+        "posX": 6.0,
+        "posY": -100.0,
+        "posZ": 3.0,
+        "rotX": 2.20433212E-05,
+        "rotY": 180.004349,
+        "rotZ": 355.7309,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Nein Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "nein"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 25801,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "258": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "16e47f",
+      "Name": "Card",
+      "Transform": {
+        "posX": 6.0,
+        "posY": -100.0,
+        "posZ": 0.0,
+        "rotX": 1.03584981E-08,
+        "rotY": 179.992859,
+        "rotZ": -3.715137E-08,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Liberal Role Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "role"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 12306,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "123": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/486767061412116401/336CAFD99D8CF70D8371094E048AB7B2CDD23DC3/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061412115929/FBB86CA2DAEF0B27A2643AC720B8212CDF10E0FA/",
+          "NumWidth": 4,
+          "NumHeight": 3,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "5736f8",
+      "Name": "Card",
+      "Transform": {
+        "posX": 7.0,
+        "posY": -100.0,
+        "posZ": 3.0,
+        "rotX": 2.59902143,
+        "rotY": 180.014053,
+        "rotZ": -9.716563E-07,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Nein Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "nein"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 25601,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "256": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "33dd8a",
+      "Name": "Card",
+      "Transform": {
+        "posX": 7.0,
+        "posY": -100.0,
+        "posZ": 2.0,
+        "rotX": 5.238512E-09,
+        "rotY": 179.976318,
+        "rotZ": -4.106936E-08,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Ja Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "ja"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 25500,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "255": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "9e23fd",
+      "Name": "Card",
+      "Transform": {
+        "posX": 7.0,
+        "posY": -100.0,
+        "posZ": 1.0,
+        "rotX": 2.440934E-07,
+        "rotY": 179.999023,
+        "rotZ": -2.74872264E-06,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Liberal Party Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "party"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 64800,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "648": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/492401650180628533/5900E7D25B5FDD53C4FE06B974A9F49262944DB7/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061409390371/ED89BABA304C2ED50EBCDC14FA6A5DA60734A72D/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "c23099",
+      "Name": "Card",
+      "Transform": {
+        "posX": 7.0,
+        "posY": -100.0,
+        "posZ": 0.0,
+        "rotX": 1.7051935E-08,
+        "rotY": 179.999023,
+        "rotZ": 1.866203E-07,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Liberal Role Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "role"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 70505,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "705": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/486767061412116401/336CAFD99D8CF70D8371094E048AB7B2CDD23DC3/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061412115929/FBB86CA2DAEF0B27A2643AC720B8212CDF10E0FA/",
+          "NumWidth": 4,
+          "NumHeight": 3,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "171951",
+      "Name": "Card",
+      "Transform": {
+        "posX": 8.0,
+        "posY": -100.0,
+        "posZ": 3.0,
+        "rotX": 0.00165648852,
+        "rotY": 180.002029,
+        "rotZ": 356.82843,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Nein Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "nein"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 26201,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "262": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "9dbcac",
+      "Name": "Card",
+      "Transform": {
+        "posX": 8.0,
+        "posY": -100.0,
+        "posZ": 2.0,
+        "rotX": 8.348526E-06,
+        "rotY": 180.039444,
+        "rotZ": -7.025709E-05,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Ja Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "ja"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 26100,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "261": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "773694",
+      "Name": "Card",
+      "Transform": {
+        "posX": 8.0,
+        "posY": -100.0,
+        "posZ": 1.0,
+        "rotX": -1.58552229E-08,
+        "rotY": 180.0128,
+        "rotZ": -6.40602149E-09,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Liberal Party Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "party"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 65200,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "652": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/492401650180628533/5900E7D25B5FDD53C4FE06B974A9F49262944DB7/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061409390371/ED89BABA304C2ED50EBCDC14FA6A5DA60734A72D/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "98f4dc",
+      "Name": "Card",
+      "Transform": {
+        "posX": 8.0,
+        "posY": -100.0,
+        "posZ": 0.0,
+        "rotX": 3.2221088E-08,
+        "rotY": 180.0128,
+        "rotZ": 8.170424E-07,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Liberal Role Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "role"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 65108,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "651": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/486767061412116401/336CAFD99D8CF70D8371094E048AB7B2CDD23DC3/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061412115929/FBB86CA2DAEF0B27A2643AC720B8212CDF10E0FA/",
+          "NumWidth": 4,
+          "NumHeight": 3,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "31be17",
+      "Name": "Card",
+      "Transform": {
+        "posX": 9.0,
+        "posY": -100.0,
+        "posZ": 3.0,
+        "rotX": -2.60144564E-08,
+        "rotY": 180.004425,
+        "rotZ": -2.54241286E-08,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Nein Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "nein"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 26401,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "264": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "b25d6a",
+      "Name": "Card",
+      "Transform": {
+        "posX": 9.0,
+        "posY": -100.0,
+        "posZ": 2.0,
+        "rotX": -1.42168865E-05,
+        "rotY": 179.998825,
+        "rotZ": 0.0001120108,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Ja Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "ja"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 26300,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "263": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363209/86078D3725CDE2B860059AF6ADEC9C0DF2B9D786/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/487893695357363653/E92709D8795B0637D18C6910013EEDF96A1480A3/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "564a73",
+      "Name": "Card",
+      "Transform": {
+        "posX": 9.0,
+        "posY": -100.0,
+        "posZ": 1.0,
+        "rotX": 5.758878E-06,
+        "rotY": 179.996567,
+        "rotZ": 359.513,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Liberal Party Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "party"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 65300,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "653": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/492401650180628533/5900E7D25B5FDD53C4FE06B974A9F49262944DB7/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061409390371/ED89BABA304C2ED50EBCDC14FA6A5DA60734A72D/",
+          "NumWidth": 2,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "32843f",
+      "Name": "Card",
+      "Transform": {
+        "posX": 9.0,
+        "posY": -100.0,
+        "posZ": 0.0,
+        "rotX": -3.28817755E-08,
+        "rotY": 180.001175,
+        "rotZ": 1.255832E-08,
+        "scaleX": 0.0,
+        "scaleY": 1.0,
+        "scaleZ": 0.0
+      },
+      "Nickname": "",
+      "Description": "Liberal Role Card",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Tags": [
+        "card",
+        "role"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 17209,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "172": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/486767061412116401/336CAFD99D8CF70D8371094E048AB7B2CDD23DC3/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/486767061412115929/FBB86CA2DAEF0B27A2643AC720B8212CDF10E0FA/",
+          "NumWidth": 4,
+          "NumHeight": 3,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  ]
+}
