@@ -56,7 +56,7 @@ function initObjectTags()
     v.setTags({'placard'})
   end
   for k,v in pairs(objs.placards) do
-    v.setTags({'placard'})
+    v.setTags({'placard', k})
   end
   for role,rolesTab in pairs(objs.playerCards) do
     for i,cardObjsTab in ipairs(rolesTab) do

@@ -1,0 +1,24 @@
+function findClosestPlayer(obj)
+  local pos = obj.getPosition()
+  local minDistance = math.huge
+  local closestColor = nil
+  local distance
+
+  for color,playerTab in pairs(players) do
+    distance = Vector.distance(pos, PLACARD_POS[color].position)
+    if distance < minDistance then
+      closestColor = color
+      minDistance = distance
+    end
+  end
+  return minDistance < 6 and closestColor or nil
+end
+
+function movePlacardToColor(color, obj)
+  local position = PLACARD_POS[color].position
+  if obj.hasTag('chan') then
+    position = position + Vector(0,1,0)
+  end
+  obj.setPositionSmooth(position, false, true)
+  obj.setRotationSmooth(PLACARD_POS[color].rotation)
+end

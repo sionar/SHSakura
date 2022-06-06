@@ -56,11 +56,25 @@ HAND_POS = {
   Orange =    {position = Vector.new(-51.66, 4.07, -11.73), rotation = Vector.new(0.00, 90.00, 0.00)},
   Yellow =    {position = Vector.new(-51.66, 4.07, 11.73),  rotation = Vector.new(0.00, 90.00, 0.00)},
   Green =     {position = Vector.new(-29.30, 4.07, 34.43),  rotation = Vector.new(0.00, 180.00, 0.00)},
-  Teal =      {position = Vector.new(0.00, 4.07, 34.45),    rotation = Vector.new(0.00, 180.00, 0.00)},
+  Teal =      {position = Vector.new(0.00, 4.07, 34.43),    rotation = Vector.new(0.00, 180.00, 0.00)},
   Blue =      {position = Vector.new(29.30, 4.07, 34.43),   rotation = Vector.new(0.00, 180.00, 0.00)},
   Purple =    {position = Vector.new(51.66, 4.07, 11.73),   rotation = Vector.new(0.00, 270.00, 0.00)},
   Pink =      {position = Vector.new(51.66, 4.07, -11.73),  rotation = Vector.new(0.00, 270.00, 0.00)},
 }
+
+PLACARD_POS = {
+  White =     {position = Vector.new(29.30, 2.08, -23.43),  rotation = Vector.new(0.00, 0.00, 0.00)},
+  Brown =     {position = Vector.new(0.00, 2.08, -23.43),   rotation = Vector.new(0.00, 0.00, 0.00)},
+  Red =       {position = Vector.new(-29.30, 2.08, -23.43), rotation = Vector.new(0.00, 0.00, 0.00)},
+  Orange =    {position = Vector.new(-40.66, 2.08, -11.73), rotation = Vector.new(0.00, 90.00, 0.00)},
+  Yellow =    {position = Vector.new(-40.66, 2.08, 11.73),  rotation = Vector.new(0.00, 90.00, 0.00)},
+  Green =     {position = Vector.new(-29.30, 2.08, 23.43),  rotation = Vector.new(0.00, 180.00, 0.00)},
+  Teal =      {position = Vector.new(0.00, 2.08, 23.43),    rotation = Vector.new(0.00, 180.00, 0.00)},
+  Blue =      {position = Vector.new(29.30, 2.08, 23.43),   rotation = Vector.new(0.00, 180.00, 0.00)},
+  Purple =    {position = Vector.new(40.66, 2.08, 11.73),   rotation = Vector.new(0.00, 270.00, 0.00)},
+  Pink =      {position = Vector.new(40.66, 2.08, -11.73),  rotation = Vector.new(0.00, 270.00, 0.00)},
+}
+
 
 ----------Variables----------
 objs = {}

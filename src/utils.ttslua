@@ -23,3 +23,8 @@ function shuffleTable(table)
   end
   return table
 end
+
+function dealCardToHand(card, handColor)
+  card.setPositionSmooth(HAND_POS[handColor].position, false, false)
+  card.setRotationSmooth(HAND_POS[handColor].rotation, false, false)
+end

@@ -3,4 +3,6 @@
 #include \main.ttslua
 #include \init.ttslua
 #include \utils.ttslua
+#include \events.ttslua
 #include \start_game.ttslua
+#include \placards.ttslua

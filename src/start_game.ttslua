@@ -1,9 +1,10 @@
 function startGame()
   initPlayers()
-  assignRoles()
-  assignPlayerCards()
-  setVotingCardGMNotes()
-  dealPlayerCards()
+  initAssignRoles()
+  initAssignPlayerCards()
+  initSetVotingCardGMNotes()
+  initDealPlayerCards()
+  initUnlockObjects()
 end
 
 function initPlayers()
@@ -15,7 +16,7 @@ function initPlayers()
   end
 end
 
-function assignRoles()
+function initAssignRoles()
   local numLib = math.floor(gameState.numPlayers / 2) + 1
   local numFas = gameState.numPlayers - numLib - 1
   local roles = {"hitler"}
@@ -33,7 +34,7 @@ function assignRoles()
   end
 end
 
-function assignPlayerCards()
+function initAssignPlayerCards()
   local libIdx, fasIdx = 1,1
   for color,playerTable in pairs(players) do
     if playerTable.role == "hitler" then
@@ -48,14 +49,14 @@ function assignPlayerCards()
   end
 end
 
-function setVotingCardGMNotes()
+function initSetVotingCardGMNotes()
   for color,playerTable in pairs(playerDecks) do
     playerDecks[color].ja.setGMNotes(color)
     playerDecks[color].nein.setGMNotes(color)
   end
 end
 
-function dealPlayerCards()
+function initDealPlayerCards()
   for color,playerTable in pairs(players) do
     setupCard(playerDecks[color].ja, color)
     setupCard(playerDecks[color].nein, color)
@@ -71,7 +72,9 @@ function setupCard(card, color)
   dealCardToHand(card, color)
 end
 
-function dealCardToHand(card, color)
-  card.setPositionSmooth(HAND_POS[color].position, false, false)
-  card.setRotationSmooth(HAND_POS[color].rotation, false, false)
+function initUnlockObjects()
+  for k,obj in pairs(objs.placards) do
+    obj.setLock(false)
+    obj.interactable = true
+  end
 end

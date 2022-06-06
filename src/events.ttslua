@@ -1,0 +1,6 @@
+function onObjectDrop(playerColor, obj)
+  if obj.hasTag('placard') then
+    local closestPlayer = findClosestPlayer(obj)
+    if closestPlayer then movePlacardToColor(closestPlayer, obj) end
+  end
+end
